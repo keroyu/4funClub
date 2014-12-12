@@ -1,0 +1,21 @@
+.tabsbox {
+
+}
+.tabsbox-nav {
+	z-index: 1;
+	position: relative;
+	top: 1px;
+	li {
+		div {
+			overflow: hidden;
+			border-top: 1px solid #808080;
+			border-left: 1px solid #808080;
+			border-right: 1px solid #808080;
+		}
+		&.active { height: 41px; }
+	}
+}
+.tabsbox-content {
+	width: 100%;
+	z-index: -1;
+}

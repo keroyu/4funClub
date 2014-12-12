@@ -1,0 +1,54 @@
+// This scss contains classes that deifine list elements' appearance
+
+.media-blocks {
+	overflow: hidden;
+	padding: 12px 10px;
+	border: 1px solid #808080;
+	li {
+		display: inline-block;
+		// width: 306px;
+		width: 50%;
+		vertical-align: text-top;
+		// height: 250px;
+		margin-bottom: 15px;
+		a > div {
+			margin: 0 5px;
+		}
+		h3 {
+			display: block;
+			margin: 0 auto;
+			text-align: left;
+			font-size: 1.1em;
+			line-height: 140%;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+.rank-list {
+	text-align: left;
+	padding: 10px 15px;
+	.rank-number {
+		display: inline-block;
+		background: url(../img/ranknumber_bg.png) no-repeat;
+		width: 17px; height: 16px;
+		position: relative;
+		bottom: 5px;
+		margin-right: 4px;
+		font-size: 0.6em;
+		text-align: center;
+		span {
+			position: relative;
+			top: 2px;
+		}
+	}
+	li {
+		@extend .text-overflow;
+		a {
+			font-size: 1em;
+			line-height: 32px;
+		}
+	}
+}

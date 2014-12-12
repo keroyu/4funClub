@@ -1,0 +1,15 @@
+<ul class="media-blocks">
+	<li><a href="article.php"><div>
+			<img src="//placehold.it/300x165" alt="">
+			<h3>BBC《主題樂園》主要園區包含「福爾摩斯」和「Doctor Who」？BBC《主題樂園》主要園區包含...</h3></div>
+		</a></li><li><a href="#">
+		<div><img src="//placehold.it/300x165" alt="">
+			<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
+		</a></li><li><a href="#"><div>
+			<img src="//placehold.it/300x165" alt="">
+			<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
+		</a></li></li><li><a href="#"><div>
+			<img src="//placehold.it/300x165" alt="">
+			<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
+		</a></li>
+</ul>

@@ -1,0 +1,39 @@
+// This scss contains classes that show all over the website
+// CAN apear for MORE THAN ONCE
+// EX: normal text link, tabs...
+
+a:link, a:visited { color: #000; text-decoration: none; }
+a:hover {  color: $linkText; } 
+
+.row {
+	overflow: hidden;
+	.row-col { float: left; }
+}
+
+.col-640 { 
+	margin-right: 20px;
+	// padding: 12px 10px;
+	// border: 1px solid #808080;
+	width: 640px; 
+}
+.col-300 { width: 300px; }
+
+.tabs-list {
+	overflow: hidden;
+	li, a { float: left; }
+	li {	
+		background: $primaryColorShallow;
+		height: 40px;
+		a {
+			line-height: 40px;
+			width: 100%;
+		}
+		&.active { background: #fff; }
+	}
+	&.two-tabs li{ width: 50%; }
+}
+.tab-pane {
+	display: none;
+	&.active { display: block; }
+}
+

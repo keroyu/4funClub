@@ -1,0 +1,24 @@
+// This scss contains classes in footer
+
+footer {
+	background: #404040;
+	font-size: 14px;
+	border-top: 5px solid $primaryColor;
+	p {
+		color: #ccc;
+		margin-top: 10px; 
+		margin-bottom: 30px;
+		line-height: 25px;
+		a {
+			&:link, &:visited { 
+				color: #ccc;
+				margin-right: 6px;
+				text-decoration: underline;
+			}
+			&:hover { color: $linkText; }
+		}
+		span {
+			font-family: Verdana, Geneva, sans-serif;
+		}
+	}
+}

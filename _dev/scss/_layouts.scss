@@ -1,0 +1,19 @@
+// This scss contains classes that decide how elements are deployed on the page
+// CAN apear for MORE THAN ONCE
+// EX: widget's padding/margin attributes
+
+header + .adbox-fw { 
+	margin: 20px 0;
+}
+
+.indexMain, .articleMain {
+	.adbox-300 {
+		width: 300px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		&:first-child { margin-top: 0px; }
+	}
+	.rank-list {
+		border: 1px solid #808080;
+	}
+}
