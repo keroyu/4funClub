@@ -22,7 +22,7 @@
 			</div>
 		</div>
 		<!-- col-640 end -->
-		<div class="row-col col-300 hidden-sm">
+		<div class="row-col col-300 hidden-sm" id="rightCol">
 			<div class="adbox adbox-300"><img src="upload/300x300.gif" alt=""></div>
 			<?php include "_php/widgets/tabsbox.php"; ?>
 			<div class="adbox adbox-300"><img src="upload/300x600.gif" alt=""></div>

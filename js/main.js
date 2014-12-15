@@ -1,4 +1,4 @@
 (function() {
-  require(['apps/general', 'apps/tabsControl']);
+  require(['apps/general', 'apps/tabsControl', 'apps/floatObj']);
 
 }).call(this);

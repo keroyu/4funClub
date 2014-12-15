@@ -1,4 +1,5 @@
 require([
 	'apps/general',
-	'apps/tabsControl'
+	'apps/tabsControl',
+	'apps/floatObj'
 ])
