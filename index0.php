@@ -11,7 +11,9 @@
 <body>
 <div class="page">
 <?php require_once "_php/header.php" ?>
-<?php include "_php/adbox_720x90.php" ?>
+<div class="adbox adbox-fw">
+	<div class="wrapper"><img src="upload/720x90.gif" alt=""></div>
+</div>
 <div class="wrapper indexMain">
 	<div class="row">
 		<div class="row-col col-640">
@@ -19,11 +21,9 @@
 		</div>
 		<!-- col-640 end -->
 		<div class="row-col col-300 hidden-sm">
-			<?php 
-				include "_php/adbox_300x300.php";
-				include "_php/widgets/tabsbox.php";
-				include "_php/adbox_300x600.php";
-			 ?>
+			<div class="adbox adbox-300"><img src="upload/300x300.gif" alt=""></div>
+			<?php include "_php/widgets/tabsbox.php"; ?>
+			<div class="adbox adbox-300"><img src="upload/300x600.gif" alt=""></div>
 		</div>
 		<!-- col-300 end -->
 	</div>
