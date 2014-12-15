@@ -17,7 +17,9 @@
 <div class="wrapper indexMain">
 	<div class="row">
 		<div class="row-col col-640">
-			<?php include "_php/widgets/mediablocks.php" ?>
+			<div class="bordred">
+				<?php include "_php/widgets/mediablocks.php" ?>
+			</div>
 		</div>
 		<!-- col-640 end -->
 		<div class="row-col col-300 hidden-sm">

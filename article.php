@@ -97,7 +97,7 @@
 				</ul>
 			</div>
 			
-			<ul class="media-blocks margin-tb">
+			<ul class="media-blocks margin-btm">
 				<li><a href="article.php"><div>
 						<img src="upload/300x165.gif" alt="">
 						<h3>BBC《主題樂園》主要園區包含「福爾摩斯」和「Doctor Who」？BBC《主題樂園》主要園區包含...</h3></div>

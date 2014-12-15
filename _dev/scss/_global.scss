@@ -9,6 +9,9 @@ p {
 	line-height: 26px;
 	&:not(:first-child) { margin-bottom: 10px; }
 }
+.bordred {
+	border: 1px solid #808080;
+}
 
 
 
