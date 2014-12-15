@@ -70,7 +70,19 @@
 				<div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-width="635" data-numposts="2" data-colorscheme="light"></div>
 			</div>
 			<!-- <p>立刻按「讚」！讓您隨時看到更多有趣的內容</p> -->
-			<div class="rankbox">
+			<div class="rankbox-2cols hidden-md margin-top">
+				<ul class="rank-list">
+					<li><span class="rank-number"><span>1</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字十四個字</a></li>
+					<li><span class="rank-number"><span>2</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>
+					<li><span class="rank-number"><span>3</span></span><a href="#">這裡最多顯示十則內容</a></li>
+					<li><span class="rank-number"><span>4</span></span><a href="#">這裡最多顯示十則內容十四個</a></li>
+					<li><span class="rank-number"><span>5</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>
+					<li><span class="rank-number"><span>6</span></span><a href="#">這裡最多顯示十則內容</a></li>
+					<li><span class="rank-number"><span>7</span></span><a href="#">這裡最多顯示十則內容十則內容十則內容</a></li>
+					<li><span class="rank-number"><span>8</span></span><a href="#">這裡最多顯示十則內容</a></li>
+					<li><span class="rank-number"><span>9</span></span><a href="#">這裡最多顯示十則內容十四個</a></li>
+					<li><span class="rank-number"><span>10</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>
+				</ul>
 				<ul class="rank-list">
 					<li><span class="rank-number"><span>1</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字十四個字</a></li>
 					<li><span class="rank-number"><span>2</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>

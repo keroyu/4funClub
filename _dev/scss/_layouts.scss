@@ -25,3 +25,14 @@ header + .adbox-fw {
 		margin-right: 36px;
 	}
 }
+
+.rankbox-2cols {
+	background: $primaryColorShallow;
+	@extend .clearfix;
+	.rank-list {
+		border: none;
+		float: left;
+		padding: 10px 8px;
+		width: 300px;
+	}
+}
