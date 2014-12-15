@@ -1,1 +1,0 @@
-<div class="adbox adbox-300"><img src="//placehold.it/300x300" alt=""></div>
