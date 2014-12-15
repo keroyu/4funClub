@@ -1,0 +1,18 @@
+.tabs-list {
+	overflow: hidden;
+	li, a { float: left; }
+	li {	
+		background: $primaryColorShallow;
+		height: 40px;
+		a {
+			line-height: 40px;
+			width: 100%;
+		}
+		&.active { background: #fff; }
+	}
+	&.two-tabs li{ width: 50%; }
+}
+.tab-pane {
+	display: none;
+	&.active { display: block; }
+}

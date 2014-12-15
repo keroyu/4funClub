@@ -1,0 +1,10 @@
+.row {
+	overflow: hidden;
+	.row-col { float: left; }
+}
+
+.col-640 { 
+	margin-right: 20px;
+	width: 640px; 
+}
+.col-300 { width: 300px; }

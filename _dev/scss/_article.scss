@@ -5,9 +5,9 @@
 }
 .article-head {
 	border-bottom: 2px solid $primaryColorDeep;
-	padding-bottom: 15px;
+	padding-bottom: 12px;
 	h2 {
-		font-size: 1.6em;
+		font-size: 26px;
 		line-height: 135%;
 		color: $primaryColorDeep;
 		margin: 10px 0;
@@ -21,6 +21,13 @@
 		color: #6D6D6D;
 		font-size: 14px; 
 	}
+	.fbbox {
+		float: right;
+		overflow: hidden;
+		width: 84px;
+		position: relative;
+		bottom: 2px;
+	}
 }
 .tags {
 	overflow: hidden;
@@ -29,9 +36,7 @@
 		margin-right: 2px;
 		font-size: 16px; 
 	}
-	i, ul {
-		float: left;
-	}
+	i, ul { float: left; }
 	ul {
 		li {
 			display: inline-block;
@@ -39,4 +44,30 @@
 			font-size: 14px;
 		}
 	}
+}
+article {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.article-info {
+	font-size: 14px;
+	color: #808080;
+}
+.articleShareBox {
+	.title {
+		display: inline-block;
+		width: 40px;
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+	position: absolute;
+	margin-top: -1px;
+	margin-left: -390px;
+	background: $primaryColorShallow;
+	display: inline-block;
+	width: 65px;
+	padding: 10px 2px;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-bottom: 1px solid #808080;
 }

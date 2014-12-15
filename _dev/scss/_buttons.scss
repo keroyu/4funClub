@@ -1,0 +1,44 @@
+.btn {
+	display: inline-block;
+}
+.btn-fbshare {
+	&:visited, &:link {
+		background: #4964B5;
+		color: #fff;
+	}
+	&:hover {
+		background: #7F92CB;
+	}
+	&:active { background: #364984; }
+}
+.btn-large {
+	line-height:58px;
+	padding: 0 18px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.pager {
+	overflow: hidden;
+	li {
+		display: inline-block;
+		a {
+			line-height: 45px;
+			padding: 0 20px;
+			border-radius: 10px;
+			font-size: 16px;
+			&:link, &:visited {
+				color: #fff;
+				background: $primaryColorDeep;
+			}
+			&:hover, &:active {
+				background: #404040;
+			}
+		}
+		&.prev {
+			float: left;
+		}
+		&.next {
+			float: right;
+		}
+	}
+}

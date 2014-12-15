@@ -7,5 +7,28 @@
 		width: 100%;
 	}
 }
+.article {
+	margin: 5px;
+}
+.article {
+	h2 { font-size: 20px; }
+}
 
+.btn-large {
+	line-height:45px;
+	border-radius: 5px;
+	font-size: 16px;
+	display: block;
+	
+}
+
+}
+
+@media screen and (max-width: 381px) {
+	.article-head .fbbox {
+		float: none;
+		margin-top: 10px;
+		top: 0px;
+		width: 280px;
+	}
 }

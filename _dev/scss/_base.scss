@@ -118,15 +118,19 @@
 	display: none;
 	position: absolute;
 	top: 50px;
-	width: 100%;
-	background: #404040;
+	// width: 100%;
+	width: 80px;
+	// background: #404040;
 	z-index: 99;
 	li {
-		display: inline-block;
-		text-align: left;
+		background: #404040;
+		display: block;
+		text-align: center;
+		&:not(:last-child) { border-bottom: 1px solid #555; }
 		a {
 			line-height: 40px;
-			padding: 0 15px;
+			padding: 0 18px;
+
 			&:link, &:visited { color: #fff; }
 			&:hover{ color: $primaryColor; }
 		}
@@ -155,5 +159,5 @@
 .breadcrumb-links p {
 	margin-left: 5px;
 	position: relative;
-	top: 12px;
+	top: 8px;
 }

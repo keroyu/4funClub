@@ -27,22 +27,26 @@
 .rank-list {
 	.rank-number {
 		background: url(../img/ranknumber_bg.png) no-repeat;
-		width: 17px; height: 16px;
-		position: relative;
-		bottom: 5px;
-		margin-right: 4px;
-		font-size: 0.6em;
+		// width: 17px; height: 16px;
+		// position: relative;
+		// bottom: 4px;
+		// margin-right: 4px;
+		font-size: 13px;
 		span {
 			position: relative;
 			top: 2px;
 		}
 	}
 	li {
+		&:active, &:hover { background: #eee; }
 		a {
-			font-size: 0.7em;
-			line-height: 26px;
+			font-size: 16px;
+			line-height: 30px;
 		}
 	}
+}
+.article {
+	img { width: 100%; height: auto; }
 }
 
 }
