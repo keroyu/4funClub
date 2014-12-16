@@ -70,7 +70,7 @@
 				<div class="">
 					<div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-width="100%" data-numposts="2" data-colorscheme="light"></div>
 				</div>
-				<p>立刻按「讚」！讓您隨時看到更多有趣的內容</p>
+				<p></p>
 				<div class="hidden-md margin-top">
 					<ul class="ranklist ranklist-col2">
 						<li><span class="rank-number"><span>1</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字十四個字</a></li>
@@ -96,8 +96,7 @@
 						<li><span class="rank-number"><span>9</span></span><a href="#">這裡最多顯示十則內容十四個</a></li>
 						<li><span class="rank-number"><span>10</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>
 					</ul>
-				</div>
-				
+				</div>	
 				<ul class="media-blocks margin-btm">
 					<li><a href="article.php"><div>
 							<img src="upload/300x165.jpg" alt="">
@@ -113,7 +112,8 @@
 							<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
 						</a></li>
 				</ul>
-				
+				<h3 class="title"><i class="fa fa-smile-o"></i>立刻按「讚」！讓您隨時看到更多有趣的內容</h3>
+				<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="100%" data-height="450px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 			</div>
 			<!-- col-640 end -->
 			<div class="row-col col-300 hidden-sm">

@@ -14,3 +14,13 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+h3.title {
+	text-align: left;
+	font-size: 20px;
+	color: $primaryColorDeep;
+	background: $primaryColorShallow;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	i { margin-right: 5px; }
+}
