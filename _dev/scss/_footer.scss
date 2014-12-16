@@ -1,13 +1,14 @@
 // This scss contains classes in footer
 
 footer {
+	z-index: 0;
 	background: #404040;
 	border-top: 5px solid $primaryColor;
 	p {
 		color: #ccc;
 		font-size: 14px;
-		margin-top: 10px; 
-		margin-bottom: 30px;
+		padding-top: 10px; 
+		padding-bottom: 30px;
 		line-height: 25px;
 		a {
 			&:link, &:visited { 

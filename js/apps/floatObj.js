@@ -1,39 +1,44 @@
 (function() {
   var floatRightCol, floatShareBox;
 
+  $('#fixedWidgets').css({
+    "position": "relative"
+  });
+
   floatRightCol = function(st, obj, hgt) {
+    hgt = $(window).height() - $('footer').height();
     if (st > hgt) {
-      obj.css({
-        "position": "fixed",
-        "bottom": "0px",
-        "margin-left": "660px"
-      });
+      obj.stop(true, true).animate({
+        "top": st - 280 + "px",
+        "overflow": "scroll",
+        "height": hgt + "px"
+      }, "easeOutExpo");
     }
     if (st < hgt) {
-      return obj.css({
-        "position": "static",
-        "margin-left": "0px"
-      });
+      return obj.stop(true, true).animate({
+        "top": "0px",
+        "height": "auto"
+      }, "easeOutExpo");
     }
   };
 
   floatShareBox = function(st, obj, hgt) {
     if (st > hgt) {
-      obj.css({
-        "position": "fixed"
-      });
+      obj.stop(true, true).animate({
+        "top": st + 200 + "px"
+      }, "easeOutExpo");
     }
     if (st < hgt) {
-      return obj.css({
-        "position": "abosolute"
-      });
+      return obj.stop(true, true).animate({
+        "top": "337px"
+      }, "easeOutExpo");
     }
   };
 
   $(window).scroll(function() {
     var hgt, obj, st;
     st = $(window).scrollTop();
-    obj = $('#rightCol');
+    obj = $('#fixedWidgets');
     hgt = $('.header').height() + $('.adbox-fw').height() + obj.height() + 40;
     floatRightCol(st, obj, hgt);
     obj = $('#articleShareBox');

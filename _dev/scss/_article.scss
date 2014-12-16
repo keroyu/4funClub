@@ -1,4 +1,6 @@
-.articleWrapper { border: 1px solid #808080; }
+.articleWrapper { 
+	border: 1px solid #808080; 
+}
 .article {
 	margin: 15px;
 	text-align: left;
@@ -61,8 +63,13 @@ article {
 		margin-bottom: 15px;
 	}
 	position: absolute;
-	margin-top: -1px;
+	top: 337px;
 	margin-left: -390px;
+	// float: left;
+	// // position: relative;
+	// margin-left: -71px;
+	// margin-left: -75px;
+
 	background: $primaryColorShallow;
 	display: inline-block;
 	width: 65px;
