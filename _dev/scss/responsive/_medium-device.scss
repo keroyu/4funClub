@@ -11,7 +11,13 @@
 	width: 100%;
 	overflow: hidden;
 }
-
+.breadcrumb-head {
+	background: url(../img/breadcrumb_head_m.png) no-repeat;
+	// background-position: 0 -5px;
+}
+.breadcrumb-links p a {
+	font-size: 20px;
+}
 .row .row-col {
 	float: none;
 	width: auto;
@@ -20,6 +26,7 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.col-300 .adbox { display: none; }
 .media-blocks { 
 	border: none; 
 	padding: 0px;
@@ -27,10 +34,6 @@
 .rank-list {
 	.rank-number {
 		background: url(../img/ranknumber_bg.png) no-repeat;
-		// width: 17px; height: 16px;
-		// position: relative;
-		// bottom: 4px;
-		// margin-right: 4px;
 		font-size: 13px;
 		span {
 			position: relative;
@@ -47,6 +50,21 @@
 }
 .article {
 	img { width: 100%; height: auto; }
+}
+.adbox-inMain-300 {
+	text-align: center;
+	img {
+		text-align: center;
+		margin: 0 auto;
+		float: none;
+		display: block;
+		&:first-of-type { 
+			margin-left: 0px;
+			margin-right: 0px; 
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+	}
 }
 
 }

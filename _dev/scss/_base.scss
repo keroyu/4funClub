@@ -154,9 +154,15 @@
 .breadcrumb-head {
 	width: 35px;
 	background: url(../img/breadcrumb_head.png) no-repeat;
+	background-position: 0 5px;
 }
 .breadcrumb-links p {
 	margin-left: 5px;
 	position: relative;
 	top: 8px;
+}
+.breadcrumb-rb {
+	float: right;
+	width: 105px; height: 45px;
+	background: url(../img/breadcrumb_rb_m.png) no-repeat;
 }
