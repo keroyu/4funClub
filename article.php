@@ -71,8 +71,8 @@
 					<div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-width="100%" data-numposts="2" data-colorscheme="light"></div>
 				</div>
 				<p>立刻按「讚」！讓您隨時看到更多有趣的內容</p>
-				<div class="rankbox-2cols hidden-md margin-top">
-					<ul class="rank-list">
+				<div class="hidden-md margin-top">
+					<ul class="ranklist ranklist-col2">
 						<li><span class="rank-number"><span>1</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字十四個字</a></li>
 						<li><span class="rank-number"><span>2</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>
 						<li><span class="rank-number"><span>3</span></span><a href="#">這裡最多顯示十則內容</a></li>
@@ -84,7 +84,7 @@
 						<li><span class="rank-number"><span>9</span></span><a href="#">這裡最多顯示十則內容十四個</a></li>
 						<li><span class="rank-number"><span>10</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>
 					</ul>
-					<ul class="rank-list">
+					<ul class="ranklist ranklist-col2">
 						<li><span class="rank-number"><span>1</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字十四個字</a></li>
 						<li><span class="rank-number"><span>2</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>
 						<li><span class="rank-number"><span>3</span></span><a href="#">這裡最多顯示十則內容</a></li>
@@ -118,7 +118,7 @@
 			<!-- col-640 end -->
 			<div class="row-col col-300 hidden-sm">
 				<div id="fixedWidgets">
-					<div class="adbox adbox-300 margin-btm"><img src="upload/300x300.jpg" alt=""></div>
+					<div class="adbox adbox-300 margin-btm" id=""><img src="upload/300x300.jpg" alt=""></div>
 					<?php include "_php/widgets/tabsbox.php"; ?>
 					<div class="adbox adbox-300"><img src="upload/300x600.jpg" alt=""></div>
 				</div>

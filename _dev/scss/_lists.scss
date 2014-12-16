@@ -25,7 +25,7 @@
 		}
 	}
 }
-.rank-list {
+.ranklist {
 	text-align: left;
 	border: 1px solid #808080;
 	padding: 10px 15px;
@@ -49,5 +49,12 @@
 			font-size: 1em;
 			line-height: 32px;
 		}
+	}
+	&.ranklist-col2 {
+		background: $primaryColorShallow;
+		border: none;
+		float: left;
+		padding: 10px 8px;
+		width: 300px;
 	}
 }

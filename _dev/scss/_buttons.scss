@@ -31,7 +31,7 @@
 				background: $primaryColorDeep;
 			}
 			&:hover, &:active {
-				background: #404040;
+				background: $primaryColor;
 			}
 		}
 		&.prev {
