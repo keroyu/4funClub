@@ -1,24 +1,14 @@
-$('#fixedWidgets').css { 
- 	"position": "relative"  
-	}
-
 floatRightCol = (st,obj,hgt) ->
-
-	# Define the height of fixedWidgets
-	hgt = $(window).height() - $('footer').height()
-
 	# Effects
 	if st > hgt
-		obj.stop(true,true).animate {
-			"top": st - 280 + "px"
-			"overflow": "scroll"
-			"height": hgt + "px"
-		}, "easeOutExpo"
+		obj.css {
+			"position": "fixed" 
+			"bottom": "75px"
+		}
 	if st < hgt
-		obj.stop(true,true).animate {
-			"top": "0px"
-			"height": "auto"
-		}, "easeOutExpo"
+		obj.css {
+			"position": "static"
+		}
 
 floatShareBox = (st,obj,hgt) ->
 	if st > hgt
@@ -30,19 +20,32 @@ floatShareBox = (st,obj,hgt) ->
 			"top": "337px"
 		}, "easeOutExpo"
 
+floatModule = () ->
+	winWid = $(window).width()
+	if winWid > 768
+		$('#fixedWidgets').css "width": "300px"
+		$(window).scroll ()->
+			st = $(window).scrollTop()
 
-$(window).scroll ()->
-	st = $(window).scrollTop()
+			# Right column
+			obj = $('#fixedWidgets')
+			hgt = 605
+			floatRightCol(st,obj,hgt)
 
-	# Right column
-	obj = $('#fixedWidgets')
-	hgt = $('.header').height() + $('.adbox-fw').height() + obj.height() + 40	
-	floatRightCol(st,obj,hgt)
+			# Article Facebook share
+			obj = $('#articleShareBox')
+			hgt = $('.header').height() + $('.adbox-fw').height() + $('.breadcrumb').height() + 15 + $('#articleShareBox').height()
+			floatShareBox(st,obj,hgt)
 
-	# Article Facebook share
-	obj = $('#articleShareBox')
-	hgt = $('.header').height() + $('.adbox-fw').height() + $('.breadcrumb').height() + 15 + $('#articleShareBox').height()
-	floatShareBox(st,obj,hgt)
+
+floatModule()
+$(window).resize () ->
+	floatModule()
+
+
+
+
+
 
 
 	

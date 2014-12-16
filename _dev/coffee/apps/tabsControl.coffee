@@ -13,6 +13,7 @@ $('.tabs-list').each ()->
 	if triggerMethod == 'click'
 		$tabBtn.click () ->
 			changeTab( $(this) )
+			return false
 	
 
 

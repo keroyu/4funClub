@@ -19,7 +19,8 @@
     }
     if (triggerMethod === 'click') {
       return $tabBtn.click(function() {
-        return changeTab($(this));
+        changeTab($(this));
+        return false;
       });
     }
   });
