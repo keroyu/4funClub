@@ -1,4 +1,4 @@
-.applyForm {
+.myForm {
 	h3 {
 		font-size: 30px;
 		padding: 15px 0;
@@ -7,13 +7,32 @@
 		float: left;
 		width: 120px;
 		text-align: right;
+		&.lower {
+			position: relative;
+			top: 5px;
+		}
 	}
 	.form-field {
 		padding: 10px 0;
+		vertical-align: text-top;
 	}
 	.text {
 		width: 380px;
+		// height: 25px;
 		@extend .text-overflow;
+		a {
+			padding: 0 5px;
+			i { color: green; }
+			&.lower {
+				position: relative;
+				top: 5px;
+			}
+			&.btn {
+				padding: 5px 15px;
+				background: $primaryColorShallow;
+			}
+		}
+		&.wid-800 { width: 800px; }
 	}
 }
 
