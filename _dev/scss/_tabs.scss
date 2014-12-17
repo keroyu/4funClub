@@ -10,9 +10,32 @@
 		}
 		&.active { background: #fff; }
 	}
-	&.two-tabs li{ width: 50%; }
+	&.col-2 li{ width: 50%; }
+	&.col-4 li { width: 25%; }
 }
 .tab-pane {
 	display: none;
 	&.active { display: block; }
+}
+.tabs-vertical {
+	li {
+		font-size: 18px;
+		line-height: 32px;
+		&:not(:last-child) {
+			margin-bottom: 4px;
+		}
+		&.active {
+			a:link, a:visited {
+				background: $primaryColor;
+				color: #fff;
+			}
+		}
+		a:link, a:visited {
+			display: inline-block;
+			width: 100%;
+			background: #eee;
+			color: #808080;
+			border-radius: 5px;
+		}
+	}
 }
