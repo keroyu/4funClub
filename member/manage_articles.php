@@ -38,7 +38,7 @@
 								<td>2014.11.10</td>
 								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
 								<td>15 / 300 / 1673</td>
-								<td><button class="apply"><i class="fa fa-exclamation"></i> 申訴</button></td>
+								<td><a href="#" data-page="manage_articles_apply.html" data-lbwid="600" data-lbhgt="360" data-clshgt="29" class="apply ltbox-mode"><i class="fa fa-exclamation"></i> 申訴</a></td>
 							</tr>
 							<tr>
 								<td>2014.11.10</td>

@@ -1,3 +1,22 @@
+.applyForm {
+	h3 {
+		font-size: 30px;
+		padding: 15px 0;
+	}
+	label {
+		float: left;
+		width: 120px;
+		text-align: right;
+	}
+	.form-field {
+		padding: 10px 0;
+	}
+	.text {
+		width: 380px;
+		@extend .text-overflow;
+	}
+}
+
 select, textarea, input[type=text] {
 	border: 1px solid #555;
 	font-size: 16px;
@@ -14,6 +33,6 @@ select, textarea, input[type=text] {
 	}
 }
 .form-btns {
-	text-align: left;
+	text-align: center;
 	margin: 10px 0 20px 0;
 }

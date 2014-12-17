@@ -2,7 +2,7 @@
 // CAN apear for MORE THAN ONCE
 // EX: normal text link, tabs...
 
-a:link, a:visited { color: #000; text-decoration: none; }
+a:link, a:visited { cursor: pointer; color: #000; text-decoration: none; }
 a:hover {  color: $linkText; } 
 p {
 	font-size: 16px;

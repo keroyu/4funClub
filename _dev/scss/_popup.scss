@@ -1,0 +1,48 @@
+.black-mode {
+  background: #000; 
+  position: absolute;
+  top: 0px;
+  opacity: 0.7; height: 0px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.keroslightbox {
+   display: none; 
+  text-align: center; height: 0px;
+  z-index: 101;
+}
+.keroslightbox .box {
+  position: absolute; z-index: 9999; 
+  height: 0px; padding: 20px;
+  background: #fff;
+  /*top: 800px;*/
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #fff;
+  
+  background: #e2e2e2;
+
+  .close {
+    cursor: pointer; font-family: Arial;
+    display: inline-block; color: #e1e1e1;
+    float: right; font-size: 35px;
+    margin: 5px 10px 0 0; height: 0px;
+    overflow: hidden;
+    &:hover { color: #555; }
+  }
+
+  .inner-box{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #fff; padding: 20px;
+
+    h1{  float: left; text-align: left; font-size: 24px; color: #f00; margin: 0 0 20px 0;}
+    p.time{ text-align: left; margin: 10px 0 0 0;}
+
+  }
+}
