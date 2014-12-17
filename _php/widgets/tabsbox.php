@@ -1,5 +1,5 @@
 <div class="tabsbox">
-	<ul class="tabsbox-nav tabs-list two-tabs" data-trigger="click">
+	<ul class="tabsbox-nav tabs-list col-2" data-trigger="click">
 		<li class="active tabs-list-item" data-toggle="#rankHot"><div><a href="#">最新熱門</a></div></li><li class="tabs-list-item" data-toggle="#rankNew"><div><a href="#">最新文章</a></div></li>
 	</ul>
 	<div class="tabsbox-content clearfix">
