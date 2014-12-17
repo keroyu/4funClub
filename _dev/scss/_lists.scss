@@ -58,3 +58,26 @@
 		width: 300px;
 	}
 }
+.pages {
+	li {
+		display: inline-block;
+		a {
+			font-size: 14px;
+			display: inline-block;
+			padding: 3px 10px;
+			i {
+				position: relative;
+				bottom: 2px;
+				margin-left: 5px;
+			}
+		}
+		&:not(:last-child) {
+			border-right: 1px solid #555;
+		}
+		&.next {
+			a { 
+				background: #eee;
+			}
+		}
+	}
+}

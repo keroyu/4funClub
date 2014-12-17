@@ -1,11 +1,10 @@
 <header>
-
 <div class="header hidden-md">
 	<div class="wrapper">
 		<h1 class="header-logo"><a href="#">4 Fun Club</a></h1>
 		<div class="header-rpanel">
-			<iframe src="//www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;layout=button_count" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowTransparency="true"></iframe>
-			<ul class="rplink-list"><li><a href="#">登入</a></li><li><a href="#">註冊帳號</a></li></ul>
+			<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<ul class="rplink-list"><li><a href="#">登入</a></li><li><a href="#">註冊</a></li></ul>
 		</div>
 		<div class="navbar clearfix">
 			<div class="navbar-border left"></div>

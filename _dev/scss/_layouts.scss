@@ -29,6 +29,7 @@ header + .adbox-fw {
 	overflow: hidden;
 }
 .memberPanel {
+	min-height: 600px;
 	.tabsbox-content{
 		margin-bottom: 50px;
 	}
@@ -36,7 +37,7 @@ header + .adbox-fw {
 
 .newPostEditor {
 	overflow: hidden;
-	min-height: 660px;
+	
 }
 .newPostEditor-leftcol, .newPostEditor-rightcol { float: left; }
 .newPostEditor-leftcol { 

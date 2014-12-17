@@ -6,7 +6,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <head>
-<title>4 FUN CLUB 文章管理</title>
+<title>4 FUN CLUB 發表文章</title>
 <?php require "../_php/head.php" ?>
 </head>
 <body>
@@ -18,7 +18,7 @@
 	<div class="wrapper">
 		<div class="memberPanel">
 			<ul class="tabsbox-nav tabs-list col-4">
-				<li><div><a href="manage_article.html">文章管理</a></div></li><li><div><a href="manage_financial.html">收益報告</a></div></li><li><div><a href="manage_profile.html">個人資料</a></div></li><li class="active tabs-list-item"><div><a href="manage_newpost.html">發表文章</a></div></li>
+				<li><div><a href="manage_articles.html">文章管理</a></div></li><li><div><a href="manage_financial.html">收益報告</a></div></li><li><div><a href="manage_profile.html">個人資料</a></div></li><li class="active tabs-list-item"><div><a href="manage_newpost.html">發表文章</a></div></li>
 			</ul>
 			<div class="tabsbox-content">
 				<div class="bordered text-center">
