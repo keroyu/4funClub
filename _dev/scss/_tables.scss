@@ -1,0 +1,26 @@
+.mytable {
+	margin: 0 auto;
+	// margin: 15px 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #555;
+	font-size: 16px;
+	line-height: 30px;
+	thead {
+		tr {
+			line-height: 40px;
+			background: #eee;
+			font-weight: bold;
+		}
+	}
+	tbody {
+		td {
+			padding: 3px 0px;
+		}
+	}
+	.title {
+		text-align: left;
+		width: 500px;
+		@extend .text-overflow;
+	}
+}
