@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="description" content="">
 <meta name="keywords" content="">
 <head>
+<title>4 FUN CLUB 首頁</title>
 <?php require_once "_php/head.php" ?>
 </head>
 <body>

@@ -8,9 +8,9 @@
     return $(target).addClass('active').siblings().removeClass('active');
   };
 
-  $('.tabs-list').each(function() {
+  $('.tabs-list, .tabs-vertical').each(function() {
     var $tabBtn, triggerMethod;
-    triggerMethod = $('.tabs-list').data('trigger');
+    triggerMethod = $(this).data('trigger');
     $tabBtn = $(this).find('.tabs-list-item');
     if (triggerMethod === 'hover') {
       $tabBtn.hover(function() {

@@ -28,3 +28,14 @@ header + .adbox-fw {
 .articleMain {
 	overflow: hidden;
 }
+.newPostEditor {
+	overflow: hidden;
+}
+.newPostEditor-leftcol, .newPostEditor-rightcol { float: left; }
+.newPostEditor-leftcol { 
+	width: 200px; 
+	margin: 15px;
+}
+.newPostEditor-rightcol {
+	margin-top: 15px;
+}

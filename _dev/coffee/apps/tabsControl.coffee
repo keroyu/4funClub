@@ -3,8 +3,8 @@ changeTab = (btn) ->
 	btn.addClass('active').siblings().removeClass('active')
 	$(target).addClass('active').siblings().removeClass('active')
 
-$('.tabs-list').each ()->
-	triggerMethod = $('.tabs-list').data('trigger')
+$('.tabs-list, .tabs-vertical').each ()->
+	triggerMethod = $(this).data('trigger')
 	$tabBtn = $(this).find('.tabs-list-item')
 
 	if triggerMethod == 'hover'
