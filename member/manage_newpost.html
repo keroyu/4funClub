@@ -7,11 +7,49 @@
 <meta name="keywords" content="">
 <head>
 <title>4 FUN CLUB 文章管理</title>
-<?php require "../_php/head.php" ?>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="//localhost/public/4fun/css/stylesheet.css">
+<script src="//localhost/public/4fun/js/lib/jquery.min.js"></script>
+<script data-main="//localhost/public/4fun/js/main" src="//localhost/public/4fun/js/require.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
 </head>
 <body>
 <div class="page">
-	<?php require_once  "../_php/header.php" ?>
+	<header>
+
+<div class="header hidden-md">
+	<div class="wrapper">
+		<h1 class="header-logo"><a href="#">4 Fun Club</a></h1>
+		<div class="header-rpanel">
+			<iframe src="//www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;layout=button_count" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowTransparency="true"></iframe>
+			<ul class="rplink-list"><li><a href="#">登入</a></li><li><a href="#">註冊帳號</a></li></ul>
+		</div>
+		<div class="navbar clearfix">
+			<div class="navbar-border left"></div>
+			<div class="navbar-mid">
+				<div class="top"></div>
+				<nav>
+					<ul class="navbar-links">
+						<li><a href="#"><i class="fa fa-home"></i></a></li><li class="active"><a href="#">最新</a></li><li><a href="#">熱門</a></li><li><a href="#">美食</a></li><li><a href="#">旅遊</a></li><li><a href="#">動物</a></li><li><a href="#">爆笑</a></li><li><a href="#">蒐奇</a></li><li><a href="#">正妹</a></li><li><a href="#">影片</a></li><li><a href="#">生活</a></li><li><a href="#">幫助</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="navbar-border right"></div>
+		</div>
+	</div><!-- wrapper end -->
+</div><!-- header end -->
+<div class="header-mb hidden-big">
+	<a class="navbtn" href="#" id="menuBtn"><i class="fa fa-bars"></i></a>
+	<ul class="navbar-links-mb hidden-big" id="menuList">
+		<li><a href="#">最新</a></li><li><a href="#">熱門</a></li><li><a href="#">美食</a></li><li><a href="#">旅遊</a></li><li><a href="#">動物</a></li><li><a href="#">爆笑</a></li><li><a href="#">蒐奇</a></li><li><a href="#">正妹</a></li><li><a href="#">影片</a></li><li><a href="#">生活</a></li><li><a href="#">幫助</a></li>
+	</ul>
+	<div class="header-logo-mb"></div>
+</div>
+
+</header>
 	<div class="adbox adbox-fw hidden-md">
 		<div class="wrapper"><img src="../upload/720x90.jpg" alt=""></div>
 	</div>
@@ -121,7 +159,10 @@
 		</div>
 	</div>
 <!-- wrapper indexMain end -->
-<?php require_once "../_php/footer.php" ?>
-</div>
+<footer>
+	<div class="wrapper">
+		<p class="copyright"><a href="#">聯絡我們</a><span>Copyright &copy; 2014 All rights reserved.</span></p>
+	</div>
+</footer></div>
 </body>
 </html>
