@@ -11,6 +11,21 @@
 	}
 	&:active { background: #364984; }
 }
+.btn-primary {
+	&:link, &:visited {
+		background: $primaryColorDeep;
+		color: #fff;
+		border-radius: 6px;
+	}
+	&:hover {
+		background: $primaryColor;
+	}
+}
+.btn-md {
+	line-height: 32px;
+	font-size: 20px;
+	padding: 5px 20px;
+}
 .btn-large {
 	line-height:58px;
 	padding: 0 18px;

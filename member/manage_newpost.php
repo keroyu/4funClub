@@ -17,8 +17,8 @@
 	</div>
 	<div class="wrapper">
 		<div class="memberPanel">
-			<ul class="tabsbox-nav tabs-list col-4" data-trigger="click">
-				<li class="tabs-list-item"><div><a href="manage_article.html">文章管理</a></div></li><li class="tabs-list-item"><div><a href="manage_financial.html">收益報告</a></div></li><li class="tabs-list-item"><div><a href="manage_profile.html">個人資料</a></div></li><li class="active tabs-list-item"><div><a href="manage_newpost.html">發表文章</a></div></li>
+			<ul class="tabsbox-nav tabs-list col-4">
+				<li><div><a href="manage_article.html">文章管理</a></div></li><li><div><a href="manage_financial.html">收益報告</a></div></li><li><div><a href="manage_profile.html">個人資料</a></div></li><li class="active tabs-list-item"><div><a href="manage_newpost.html">發表文章</a></div></li>
 			</ul>
 			<div class="tabsbox-content">
 				<div class="bordered text-center">
@@ -37,6 +37,9 @@
 										</select>
 									</div>
 									<div class="form-field">
+										<input type="text" class="wid-500" placeholder="標題（4-20個中文字）">
+									</div>
+									<div class="form-field">
 										<input type="file" name="datafile" placeholder="直接輸入圖片網址" size="40"><br>
 										<button>上傳</button>
 										<p class="info">上傳圖片（支援 .jpg、.png、.gif格式），檔案大小請限制在 3MB 以內</p>
@@ -50,6 +53,9 @@
 									<div class="form-field">
 										<input type="text" class="wid-500" placeholder="幫文章加上 tag（以逗號分隔，可不填）">
 									</div>
+									<div class="form-btns">
+										<a href="#" class="btn btn-md btn-primary">送出</a>
+									</div>
 								</form>
 							</div>
 						</div>
@@ -62,9 +68,20 @@
 										</select>
 									</div>
 									<div class="form-field">
-										<input type="file" name="datafile" placeholder="直接輸入圖片網址" size="40"><br>
-										<button>上傳</button>
-										<p class="info">上傳圖片（支援 .jpg、.png、.gif格式），檔案大小請限制在 3MB 以內</p>
+										<input type="text" class="wid-500" placeholder="標題（4-20個中文字）">
+									</div>
+									
+									<div class="form-field">
+										<textarea name="" id="" cols="65" rows="10">文字敘述</textarea>
+									</div>
+									<div class="form-field">
+										<input type="text" class="wid-500" placeholder="參考來源（可不填）">
+									</div>
+									<div class="form-field">
+										<input type="text" class="wid-500" placeholder="幫文章加上 tag（以逗號分隔，可不填）">
+									</div>
+									<div class="form-btns">
+										<a href="#" class="btn btn-md btn-primary">送出</a>
 									</div>
 								</form>
 							</div>
