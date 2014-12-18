@@ -32,7 +32,7 @@
 						<img src="upload/300x165.jpg" alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
 					</a></li><li class="adbox"><a href="#">
-						<div><img src="upload/300x240.jpg" alt=""></div>
+						<div><img src="upload/300x250.jpg" alt=""></div>
 					</a></li><li><a href="#"><div>
 						<img src="upload/300x165.jpg" alt="">
 						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們再糟糕的天氣也阻止不了柴柴們《惡劣天氣的散步柴</h3></div>
@@ -40,6 +40,9 @@
 						<img src="upload/300x165.jpg" alt="">
 						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
 					</a></li><li><a href="#"><div>
+						<img src="upload/300x165.jpg" alt="">
+						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
+					</a></li></li><li><a href="#"><div>
 						<img src="upload/300x165.jpg" alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
 					</a></li>
