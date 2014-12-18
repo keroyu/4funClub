@@ -2,6 +2,13 @@
 // CAN apear for MORE THAN ONCE
 // EX: normal text link, tabs...
 
+h2 {
+	font-size: 28px;
+	line-height: 135%;
+	color: #e25700;
+	margin: 10px 0;
+}
+
 a:link, a:visited { cursor: pointer; color: #000; text-decoration: none; }
 a:hover {  color: $linkText; } 
 p {
@@ -23,6 +30,7 @@ p {
 .wid-800 { width: 800px; }
 .wid-500 { width: 500px; }
 .wid-400 { width: 400px; }
+.wid-300 { width: 300px; }
 .wid-200 { width: 200px; }
 .wid-150 { width: 150px; }
 .alert-box { 
@@ -35,3 +43,7 @@ p {
 .red {  color: #D51C0F; }
 .fs-16 { font-size: 16px; }
 .fs-18 { font-size: 18px; }
+.link { 
+	&:link, &:visited { text-decoration: underline; color: $linkText; }
+	&:hover { color: $linkTextOn; }
+}

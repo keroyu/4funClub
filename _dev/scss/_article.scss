@@ -8,12 +8,6 @@
 .article-head {
 	border-bottom: 2px solid $primaryColorDeep;
 	padding-bottom: 12px;
-	h2 {
-		font-size: 26px;
-		line-height: 135%;
-		color: $primaryColorDeep;
-		margin: 10px 0;
-	}
 	a {
 		&:link, &:visited { color: #6D6D6D; }
 		&:hover { color: $linkText; }

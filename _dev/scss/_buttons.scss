@@ -31,6 +31,17 @@
 	&:hover { background: #3C3C3C; }
 	&:active { position: relative; top: 1px; }
 }
+.btn-secondary {
+	&:link, &:visited {
+		background: $primaryColorDeep;
+		color: #fff;
+		border-radius: 6px;
+		box-shadow: 1px 1px 2px #ccc;
+	}
+	&:hover {
+		background: $primaryColor;
+	}
+}
 .btn-md {
 	line-height: 32px;
 	font-size: 20px;
@@ -66,4 +77,11 @@
 			float: right;
 		}
 	}
+}
+
+.fbreg{
+	background: url(../img/btn_fbreg.png) no-repeat;
+	width: 248px;
+	height: 39px;
+	&:hover { background-position: 0 -39px; }	
 }

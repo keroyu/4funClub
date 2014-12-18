@@ -6,7 +6,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <head>
-<title>4 FUN CLUB 發表文章</title>
+<title>4 FUN CLUB 收益報告</title>
 <?php require "../_php/head.php" ?>
 </head>
 <body>
@@ -36,7 +36,7 @@
 							<div class="tab-pane active" id="details">
 								<div class="forum-field">
 									<div class="input-withIcon">
-										月份：<input type="text" class="monthPicker"> <i class="fa fa-calendar"></i> 
+										月份：<input type="text" class="monthPicker">
 									</div><a href="" class="btn btn-primary">查詢</a>
 								</div>
 								<table class="mytable margin-tb" width="700">

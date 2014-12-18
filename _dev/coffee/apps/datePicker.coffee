@@ -1,4 +1,6 @@
 $(".monthPicker").datepicker
+  showOn: "button"
+  buttonImage: "../img/calendar.png"
   dateFormat: "MM yy"
   changeMonth: true
   changeYear: true
