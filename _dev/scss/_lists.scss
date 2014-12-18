@@ -3,6 +3,7 @@
 .media-blocks {
 	overflow: hidden;
 	padding: 12px 10px;
+	text-align: left;
 	// border: 1px solid #808080;
 	li {
 		display: inline-block;
@@ -17,7 +18,8 @@
 			margin: 0 auto;
 			text-align: left;
 			font-size: 16px;
-			line-height: 140%;
+			line-height: 145%;
+			padding-top: 10px;
 		}
 		img {
 			width: 100%;

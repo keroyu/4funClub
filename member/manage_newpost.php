@@ -18,18 +18,18 @@
 	<div class="wrapper">
 		<div class="memberPanel">
 			<ul class="tabsbox-nav tabs-list col-4">
-				<li><div><a href="manage_articles.html">文章管理</a></div></li><li><div><a href="manage_financial.html">收益報告</a></div></li><li><div><a href="manage_profile.html">個人資料</a></div></li><li class="active tabs-list-item"><div><a href="manage_newpost.html">發表文章</a></div></li>
+				<li><div><a href="manage_articles.html">文章管理</a></div></li><li><div><a href="manage_financial.html">收益報告</a></div></li><li><div><a href="manage_profile.html">個人資料</a></div></li><li class="active"><div><a href="manage_newpost.html">發表文章</a></div></li>
 			</ul>
 			<div class="tabsbox-content">
 				<div class="bordered text-center">
-					<div class="newPostEditor">
-						<ul class="newPostEditor-leftcol tabs-vertical" data-trigger="click">
+					<div class="memberPanel-inner">
+						<ul class="leftcol tabs-vertical" data-trigger="click">
 							<li class="tabs-list-item active" data-toggle="#quickPic"><a href="#">快速發圖文</a></li>
 							<li class="tabs-list-item" data-toggle="#quickVid"><a href="#">快速發影片</a></li>
 							<li class="tabs-list-item" data-toggle="#richText"><a href="#">多功能編輯器</a></li>
 						</ul>
 						<div class="tab-pane active" id="quickPic">
-							<div class="newPostEditor-rightcol" >
+							<div class="rightcol" >
 								<form action="">
 									<div class="form-field">
 										<select name="" id="">
@@ -60,7 +60,7 @@
 							</div>
 						</div>
 						<div class="tab-pane" id="quickVid">
-							<div class="newPostEditor-rightcol" >
+							<div class="memberPanel-inner-rightcol" >
 								<form action="">
 									<div class="form-field">
 										<select name="" id="">
@@ -90,7 +90,7 @@
 							</div>
 						</div>
 						<div class="tab-pane" id="richText">
-							<div class="newPostEditor-rightcol" >
+							<div class="memberPanel-inner-rightcol" >
 								<form action="">
 									<div class="form-field">
 										<select name="" id="">

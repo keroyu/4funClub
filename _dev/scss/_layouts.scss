@@ -34,16 +34,16 @@ header + .adbox-fw {
 		margin-bottom: 50px;
 	}
 }
-
-.newPostEditor {
+.memberPanel-inner {
 	overflow: hidden;
-	
+	.leftcol, .rightcol { float: left; }
+	.leftcol { 
+		width: 200px; 
+		margin: 15px;
+	}
+	.rightcol {
+		margin-top: 15px;
+	}
 }
-.newPostEditor-leftcol, .newPostEditor-rightcol { float: left; }
-.newPostEditor-leftcol { 
-	width: 200px; 
-	margin: 15px;
-}
-.newPostEditor-rightcol {
-	margin-top: 15px;
-}
+
+
