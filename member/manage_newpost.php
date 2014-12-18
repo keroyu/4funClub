@@ -28,8 +28,8 @@
 							<li class="tabs-list-item" data-toggle="#quickVid"><a href="#">快速發影片</a></li>
 							<li class="tabs-list-item" data-toggle="#richText"><a href="#">多功能編輯器</a></li>
 						</ul>
-						<div class="tab-pane active" id="quickPic">
-							<div class="rightcol" >
+						<div class="rightcol" >
+							<div class="tab-pane active" id="quickPic">
 								<form action="">
 									<div class="form-field">
 										<select name="" id="">
@@ -58,9 +58,7 @@
 									</div>
 								</form>
 							</div>
-						</div>
-						<div class="tab-pane" id="quickVid">
-							<div class="rightcol" >
+							<div class="tab-pane" id="quickVid">
 								<form action="">
 									<div class="form-field">
 										<select name="" id="">
@@ -88,9 +86,7 @@
 									</div>
 								</form>
 							</div>
-						</div>
-						<div class="tab-pane" id="richText">
-							<div class="rightcol" >
+							<div class="tab-pane" id="richText">
 								<form action="">
 									<div class="form-field">
 										<select name="" id="">
