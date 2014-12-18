@@ -60,7 +60,7 @@
 							</div>
 						</div>
 						<div class="tab-pane" id="quickVid">
-							<div class="memberPanel-inner-rightcol" >
+							<div class="rightcol" >
 								<form action="">
 									<div class="form-field">
 										<select name="" id="">
@@ -90,7 +90,7 @@
 							</div>
 						</div>
 						<div class="tab-pane" id="richText">
-							<div class="memberPanel-inner-rightcol" >
+							<div class="rightcol" >
 								<form action="">
 									<div class="form-field">
 										<select name="" id="">
