@@ -50,7 +50,7 @@
 									</thead>
 									<tbody>
 									<?php
-									$str = '<tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr>';
+									$str = '<tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>額外獎金</td> </tr>';
 									for($i=0; $i<15; $i++) {
 										echo $str;
 									} ?>
@@ -112,7 +112,7 @@
 								<p class="red fs-18 margin-top">活動時間內若達到指定招募人數，即可獲得招募獎勵<br>
 								招募方式：其他會員於 <a href="#">[個人資料]</a> 頁面輸入您的招募代碼</p> 
 								<div class="line margin-tb"></div>
-								<p class="fs-18">您目前招募了 xxx 人，目前獎金為 NT$2,000<br>距離下一獎勵等級尚差 <span class="red">2</span> 人，就可獲得獎金 <span class="red">NT$2,500</span></p>
+								<p class="fs-18">您目前招募了 xxx 人，目前獎金為 <span class="red">NT$2,000</span><br>距離下一獎勵等級尚差 <span class="red">2</span> 人，就可獲得獎金 <span class="red">NT$2,500</span></p>
 								
 								<h4>獎勵及條件</h4>
 								<table class="mytable margin-btm" width="500">
