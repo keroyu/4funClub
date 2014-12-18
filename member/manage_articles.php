@@ -28,66 +28,11 @@
 						<tr>
 						</thead>
 						<tbody>
-							<tr>
-								<td>2014.11.11</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td><span class="btn success">發佈</span></td>
-							</tr>
-							<tr>
-								<td>2014.11.10</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td><a href="#" data-page="manage_articles_apply.html" data-lbwid="600" data-lbhgt="360" data-clshgt="29" class="apply ltbox-mode"><i class="fa fa-exclamation"></i> 申訴</a></td>
-							</tr>
-							<tr>
-								<td>2014.11.10</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td><span class="btn rejected">拒絕</span></td>
-							</tr>
-							<tr>
-								<td>2014.11.10</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td><span class="btn approving">確認中</span></td>
-							</tr>
-							<tr>
-								<td>2014.11.10</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td>發佈</td>
-							</tr>
-							<tr>
-								<td>2014.11.10</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td>發佈</td>
-							</tr>
-							<tr>
-								<td>2014.11.10</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td>發佈</td>
-							</tr>
-							<tr>
-								<td>2014.11.10</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td>發佈</td>
-							</tr>
-							<tr>
-								<td>2014.11.10</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td>發佈</td>
-							</tr>
-							<tr>
-								<td>2014.11.10</td>
-								<td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td>
-								<td>15 / 300 / 1673</td>
-								<td>發佈</td>
-							</tr>
+							<?php 
+							$str = '<tr> <td>2014.11.11</td> <td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td> <td>15 / 300 / 1673</td> <td><span class="btn success">發佈</span></td> </tr>';
+							for ($i=0; $i<10; $i++) { echo $str; }
+							 ?>
+							}
 						</tbody>
 					</table>
 					<ul class="pages margin-btm">
