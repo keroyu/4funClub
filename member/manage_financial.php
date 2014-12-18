@@ -93,7 +93,7 @@
 										<thead><tr><th width="50%">提領日期</th><th width="50%">金額 (新台幣)</th></tr> </thead>
 
 										<tbody>
-										<?php $str = '<tr> <td>2014/11/07</td> <td>100</td> </tr>';
+										<?php $str = '<tr> <td>2014/11/07</td> <td>100,555</td> </tr>';
 										for($i=0; $i<10; $i++){ echo $str; } ?>
 										</tbody>
 									</table>
@@ -106,7 +106,34 @@
 										<li class="next"><a href="#">下10頁<i class="fa fa-arrow-right"></i></a></li>
 									</ul>
 								</div>
+							</div>
+							<div class="tab-pane" id="invite">
+								<div class="form-field">您的招募代碼：<input type="text" class="input-big wid-150" value="abcd"> <a href="#" class="btn btn-primary btn-md">複製</a></div>
+								<p class="red fs-18 margin-top">活動時間內若達到指定招募人數，即可獲得招募獎勵<br>
+								招募方式：其他會員於 <a href="#">[個人資料]</a> 頁面輸入您的招募代碼</p> 
+								<div class="line margin-tb"></div>
+								<p class="fs-18">您目前招募了 xxx 人，目前獎金為 NT$2,000<br>距離下一獎勵等級尚差 <span class="red">2</span> 人，就可獲得獎金 <span class="red">NT$2,500</span></p>
 								
+								<h4>獎勵及條件</h4>
+								<table class="mytable margin-btm" width="500">
+									<thead>
+										<tr>
+											<th width="150">獎勵金額</th><th width="120">需求階級</th><th>條件</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr><td>NT$500</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+										<tr><td>NT$1000</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+										<tr><td>NT$1500</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+										<tr><td>NT$2000</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+										<tr><td>NT$2500</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+										<tr><td>NT$5000</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+										<tr><td>NT$7500</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+										<tr><td>NT$10,000</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+										<tr><td>NT$15,000</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+										<tr><td>NT$20,000</td><td>小康以上</td><td>招募10位小康以上會員</td></tr>
+									</tbody>
+								</table>
 							</div>
 						</div>
 						
