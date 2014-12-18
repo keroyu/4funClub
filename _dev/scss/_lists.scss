@@ -67,18 +67,13 @@
 			font-size: 14px;
 			display: inline-block;
 			padding: 3px 10px;
+			&:link, &:visited {
+				text-decoration: underline;
+				color: $linkText;
+			}
 			i {
 				position: relative;
 				bottom: 2px;
-				margin-left: 5px;
-			}
-		}
-		&:not(:last-child) {
-			border-right: 1px solid #555;
-		}
-		&.next {
-			a { 
-				background: #eee;
 			}
 		}
 	}

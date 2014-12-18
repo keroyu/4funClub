@@ -39,7 +39,7 @@
 										月份：<input type="text" class="monthPicker"> <i class="fa fa-calendar"></i> 
 									</div><a href="" class="btn btn-primary">查詢</a>
 								</div>
-								<table class="mytable" width="700">
+								<table class="mytable margin-tb" width="700">
 									<thead>
 										<tr>
 											<th width="25%">日期</th>
@@ -88,18 +88,25 @@
 								</div>
 							</div>
 							<div class="tab-pane" id="records">
-								<table class="mytable" width="500">
-									<thead>
-										<tr><th width="50%">提領日期</th><th width="50%">金額 (新台幣)</th></tr>
-										<tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>2014/11/07</td>
-											<td>100</td>
-										</tr>
-									</tbody>
-								</table>
+								<div class="text-center">
+									<table class="mytable" width="600px">
+										<thead><tr><th width="50%">提領日期</th><th width="50%">金額 (新台幣)</th></tr> </thead>
+
+										<tbody>
+										<?php $str = '<tr> <td>2014/11/07</td> <td>100</td> </tr>';
+										for($i=0; $i<10; $i++){ echo $str; } ?>
+										</tbody>
+									</table>
+									<ul class="pages margin-tb">
+										<li class="prev"><a href="#"><i class="fa fa-arrow-left"></i>上10頁</a></li>
+										<?php 
+										for ($i=1; $i<11; $i++) {
+											echo '<li><a href="#">'.$i.'</a></li>';
+										} ?>
+										<li class="next"><a href="#">下10頁<i class="fa fa-arrow-right"></i></a></li>
+									</ul>
+								</div>
+								
 							</div>
 						</div>
 						

@@ -22,7 +22,7 @@
 			</ul>
 			<div class="tabsbox-content">
 				<div class="bordered text-center">
-					<table class="mytable" width="900">
+					<table class="mytable margin-tb" width="900">
 						<thead>
 							<tr><th width="100">發佈日期</th><th width="500">文章標題</th><th>本日 / 本月 / 總瀏覽數</th><th width="100">狀態</th></tr>
 						<tr>
@@ -32,7 +32,6 @@
 							$str = '<tr> <td>2014.11.11</td> <td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td> <td>15 / 300 / 1673</td> <td><span class="btn success">發佈</span></td> </tr>';
 							for ($i=0; $i<10; $i++) { echo $str; }
 							 ?>
-							}
 						</tbody>
 					</table>
 					<ul class="pages margin-btm">

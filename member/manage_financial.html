@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<head>
+<title>4 FUN CLUB 發表文章</title>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<script src="/js/jquery.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="/css/stylesheet.css">
+<script data-main="/js/main" src="/js/require.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<style>
+.ui-datepicker-calendar { display: none; }
+</style>
+<div class="page">
+	<header>
+<div class="header hidden-md">
+	<div class="wrapper">
+		<h1 class="header-logo"><a href="#">4 Fun Club</a></h1>
+		<div class="header-rpanel">
+			<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<ul class="rplink-list"><li><a href="#">登入</a></li><li><a href="#">註冊</a></li></ul>
+		</div>
+		<div class="navbar clearfix">
+			<div class="navbar-border left"></div>
+			<div class="navbar-mid">
+				<div class="top"></div>
+				<nav>
+					<ul class="navbar-links">
+						<li><a href="#"><i class="fa fa-home"></i></a></li><li class="active"><a href="#">最新</a></li><li><a href="#">熱門</a></li><li><a href="#">美食</a></li><li><a href="#">旅遊</a></li><li><a href="#">動物</a></li><li><a href="#">爆笑</a></li><li><a href="#">蒐奇</a></li><li><a href="#">正妹</a></li><li><a href="#">影片</a></li><li><a href="#">生活</a></li><li><a href="#">幫助</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="navbar-border right"></div>
+		</div>
+	</div><!-- wrapper end -->
+</div><!-- header end -->
+<div class="header-mb hidden-big">
+	<a class="navbtn" href="#" id="menuBtn"><i class="fa fa-bars"></i></a>
+	<ul class="navbar-links-mb hidden-big" id="menuList">
+		<li><a href="#">最新</a></li><li><a href="#">熱門</a></li><li><a href="#">美食</a></li><li><a href="#">旅遊</a></li><li><a href="#">動物</a></li><li><a href="#">爆笑</a></li><li><a href="#">蒐奇</a></li><li><a href="#">正妹</a></li><li><a href="#">影片</a></li><li><a href="#">生活</a></li><li><a href="#">幫助</a></li>
+	</ul>
+	<div class="header-logo-mb"></div>
+</div>
+
+</header>
+	<div class="adbox adbox-fw hidden-md">
+		<div class="wrapper"><img src="../upload/720x90.jpg" alt=""></div>
+	</div>
+	<div class="wrapper">
+		<div class="memberPanel">
+			<ul class="tabsbox-nav tabs-list col-4">
+				<li><div><a href="manage_articles.html">文章管理</a></div></li><li class="active"><div><a href="manage_financial.html">收益報告</a></div></li><li><div><a href="manage_profile.html">個人資料</a></div></li><li><div><a href="manage_newpost.html">發表文章</a></div></li>
+			</ul>
+			<div class="tabsbox-content">
+				<div class="bordered text-center">
+					<div class="memberPanel-inner">
+						<ul class="leftcol tabs-vertical" data-trigger="click">
+							<li class="tabs-list-item active" data-toggle="#details"><a href="#">收益明細</a></li>
+							<li class="tabs-list-item" data-toggle="#earnings"><a href="#">目前收益</a></li>
+							<li class="tabs-list-item" data-toggle="#records"><a href="#">提領記錄</a></li>
+							<li class="tabs-list-item" data-toggle="#invite"><a href="#">好友招募</a></li>
+						</ul>
+						<div class="rightcol" >
+							<div class="tab-pane active" id="details">
+								<div class="forum-field">
+									<div class="input-withIcon">
+										月份：<input type="text" class="monthPicker"> <i class="fa fa-calendar"></i> 
+									</div><a href="" class="btn btn-primary">查詢</a>
+								</div>
+								<table class="mytable margin-tb" width="700">
+									<thead>
+										<tr>
+											<th width="25%">日期</th>
+											<th width="25%">瀏覽數</th>
+											<th width="25%">收益</th>
+											<th width="25%">備註</th>
+										</tr>
+									</thead>
+									<tbody>
+									<tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr><tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr>									</tbody>
+								</table>
+							</div>
+							<div class="tab-pane" id="earnings">
+								<div class="wid-500 padding-btm">
+									<h4>收益<span class="pull-right small">※金額單位皆為台幣</span></h4>
+									<ul class="termlist">
+										<li><span class="dt">今日</span><span class="dd">NT$ 500.00</span></li>
+										<li><span class="dt">昨日</span><span class="dd">NT$ 999.00</span></li>
+										<li><span class="dt">本月</span><span class="dd">NT$ 89,555.00</span></li>
+										<li><span class="dt">尚未提領</span><span class="dd">NT$ 89,555.00</span></li>
+									</ul>
+									<div class="text-right margin-btm margin-tpsm">
+										<a href="#" class="btn btn-primary btn-md switchToggle" data-show="#getMoneyBox" id="getMoneyBoxBtn">我要提領</a>
+										<div id="getMoneyBox" class="margin-top sendDataBox" style="display: none;">
+											<div class="form-field">
+												欲提款金額：<input type="text" class="input-big wid-150" placeholder="0"> 元
+											</div>
+											<div class="alert-box">您輸入的金額大於可提領金額，請重新輸入</div>
+											<div class="btns">
+												<a href="#" class="btn btn-primary btn-md">確定</a><a href="" class="btn btn-default btn-md switchToggleClose" data-hide="#getMoneyBox" data-show="#getMoneyBoxBtn">取消</a>
+											</div>
+										</div>
+									</div>
+									<div class="line" style="padding-top: 30px; margin-bottom: 30px; "></div>
+									<h4>瀏覽數</h4>
+									<ul class="termlist">
+										<li><span class="dt">今日</span><span class="dd">1,188</span></li>
+										<li><span class="dt">昨日</span><span class="dd">24,267</span></li>
+										<li><span class="dt">本月</span><span class="dd">999,999</span></li>
+									</ul>
+								</div>
+							</div>
+							<div class="tab-pane" id="records">
+								<div class="text-center">
+									<table class="mytable" width="600px">
+										<thead><tr><th width="50%">提領日期</th><th width="50%">金額 (新台幣)</th></tr> </thead>
+
+										<tbody>
+										<tr> <td>2014/11/07</td> <td>100</td> </tr><tr> <td>2014/11/07</td> <td>100</td> </tr><tr> <td>2014/11/07</td> <td>100</td> </tr><tr> <td>2014/11/07</td> <td>100</td> </tr><tr> <td>2014/11/07</td> <td>100</td> </tr><tr> <td>2014/11/07</td> <td>100</td> </tr><tr> <td>2014/11/07</td> <td>100</td> </tr><tr> <td>2014/11/07</td> <td>100</td> </tr><tr> <td>2014/11/07</td> <td>100</td> </tr><tr> <td>2014/11/07</td> <td>100</td> </tr>										</tbody>
+									</table>
+									<ul class="pages margin-tb">
+										<li class="prev"><a href="#"><i class="fa fa-arrow-left"></i>上10頁</a></li>
+										<li><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li><a href="#">6</a></li><li><a href="#">7</a></li><li><a href="#">8</a></li><li><a href="#">9</a></li><li><a href="#">10</a></li>										<li class="next"><a href="#">下10頁<i class="fa fa-arrow-right"></i></a></li>
+									</ul>
+								</div>
+								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- wrapper indexMain end -->
+
+<footer>
+	<div class="wrapper">
+		<p class="copyright"><a href="#">聯絡我們</a><span>Copyright &copy; 2014 All rights reserved.</span></p>
+	</div>
+</footer></div>
+</body>
+</html>
