@@ -55,3 +55,10 @@ select, textarea, input[type=text] {
 	text-align: center;
 	margin: 10px 0 20px 0;
 }
+.input-withIcon {
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	input[type=text] {
+		border: none;
+	}
+}

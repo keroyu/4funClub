@@ -1,4 +1,4 @@
 (function() {
-  require(['lib/jquery-ui.min', 'apps/general', 'apps/tabsControl', 'apps/floatObj', 'apps/popupBox']);
+  require(['apps/general', 'apps/tabsControl', 'apps/floatObj', 'apps/popupBox', 'apps/datePicker']);
 
 }).call(this);

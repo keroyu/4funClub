@@ -10,6 +10,9 @@
 <?php require "../_php/head.php" ?>
 </head>
 <body>
+<style>
+.ui-datepicker-calendar { display: none; }
+</style>
 <div class="page">
 	<?php require_once  "../_php/header.php" ?>
 	<div class="adbox adbox-fw hidden-md">
@@ -31,6 +34,9 @@
 						</ul>
 						<div class="tab-pane active" id="details">
 							<div class="rightcol" >
+								<div class="input-withIcon">
+									<input type="text" class="monthPicker"> <i class="fa fa-calendar"></i>
+								</div>
 								
 							</div>
 						</div>
@@ -40,6 +46,7 @@
 		</div>
 	</div>
 <!-- wrapper indexMain end -->
+
 <?php require_once "../_php/footer.php" ?>
 </div>
 </body>
