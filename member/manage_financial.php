@@ -34,9 +34,28 @@
 						</ul>
 						<div class="tab-pane active" id="details">
 							<div class="rightcol" >
-								<div class="input-withIcon">
-									<input type="text" class="monthPicker"> <i class="fa fa-calendar"></i>
+								<div class="forum-field">
+									<div class="input-withIcon">
+										月份：<input type="text" class="monthPicker"> <i class="fa fa-calendar"></i> 
+									</div><a href="" class="btn btn-primary">查詢</a>
 								</div>
+								<table class="mytable" width="700">
+									<thead>
+										<tr>
+											<th width="25%">日期</th>
+											<th width="25%">瀏覽數</th>
+											<th width="25%">收益</th>
+											<th width="25%">備註</th>
+										</tr>
+									</thead>
+									<tbody>
+									<?php
+									$str = '<tr> <td>11/07</td> <td>999,999,999</td> <td>999,999</td> <td>999,999,999</td> </tr>';
+									for($i=0; $i<15; $i++) {
+										echo $str;
+									} ?>
+									</tbody>
+								</table>
 								
 							</div>
 						</div>

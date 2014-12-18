@@ -56,9 +56,15 @@ select, textarea, input[type=text] {
 	margin: 10px 0 20px 0;
 }
 .input-withIcon {
+	display: inline-block;
 	border: 1px solid #ccc;
 	padding: 5px 10px;
 	input[type=text] {
 		border: none;
+	}
+	+ .btn {
+		line-height: 35px;
+		padding: 0 30px;
+		margin-left: 5px;
 	}
 }

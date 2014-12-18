@@ -13,13 +13,13 @@
 }
 .btn-primary {
 	&:link, &:visited {
-		background: $primaryColorDeep;
+		background: $submitBtn;
 		color: #fff;
 		border-radius: 6px;
+		box-shadow: 1px 1px 2px #ccc;
 	}
-	&:hover {
-		background: $primaryColor;
-	}
+	&:hover { background: $submitBtnOn; }
+	&:active { position: relative; top: 1px; }
 }
 .btn-md {
 	line-height: 32px;

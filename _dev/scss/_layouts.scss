@@ -36,13 +36,16 @@ header + .adbox-fw {
 }
 .memberPanel-inner {
 	overflow: hidden;
+	padding-top: 20px;
 	.leftcol, .rightcol { float: left; }
 	.leftcol { 
 		width: 200px; 
-		margin: 15px;
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-bottom: 15px;
 	}
 	.rightcol {
-		margin-top: 15px;
+		text-align: left;
 	}
 }
 
