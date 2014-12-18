@@ -83,3 +83,25 @@
 		}
 	}
 }
+.termlist {
+	border: 1px solid #ccc;
+	li {
+		font-size: 20px;
+		line-height: 40px;
+		border-bottom: 1px solid #ccc;
+		span {
+			display: inline-block;
+			text-align: center;
+			&.dt {
+				width: 150px;
+			}
+			&.dd {
+				width: 280px;
+				color: $primaryColorDeep;
+			}
+		}
+	}
+	+ .btn {
+		margin: 10px  0 40px 0;
+	}
+}

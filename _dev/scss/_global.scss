@@ -12,6 +12,14 @@ p {
 .bordered {
 	border: 1px solid #808080;
 }
+.ovh {
+	overflow: hidden;
+}
+.line {
+	display: block;
+	height: 2px;
+	border-bottom: 2px  solid #ccc;
+}
 .wid-800 { width: 800px; }
 .wid-500 { width: 500px; }
 .wid-400 { width: 400px; }

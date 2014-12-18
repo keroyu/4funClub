@@ -33,6 +33,15 @@ header + .adbox-fw {
 	.tabsbox-content{
 		margin-bottom: 50px;
 	}
+	h4 {
+		font-size: 24px;
+		padding: 10px 0;
+		.small {
+			font-size: 15px;
+			position: relative;
+			top: 8px;
+		}
+	}
 }
 .memberPanel-inner {
 	overflow: hidden;

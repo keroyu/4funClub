@@ -28,12 +28,12 @@
 					<div class="memberPanel-inner">
 						<ul class="leftcol tabs-vertical" data-trigger="click">
 							<li class="tabs-list-item active" data-toggle="#details"><a href="#">收益明細</a></li>
-							<li class="tabs-list-item" data-toggle="#earning"><a href="#">目前收益</a></li>
+							<li class="tabs-list-item" data-toggle="#earnings"><a href="#">目前收益</a></li>
 							<li class="tabs-list-item" data-toggle="#records"><a href="#">提領記錄</a></li>
 							<li class="tabs-list-item" data-toggle="#invite"><a href="#">好友招募</a></li>
 						</ul>
-						<div class="tab-pane active" id="details">
-							<div class="rightcol" >
+						<div class="rightcol" >
+							<div class="tab-pane active" id="details">
 								<div class="forum-field">
 									<div class="input-withIcon">
 										月份：<input type="text" class="monthPicker"> <i class="fa fa-calendar"></i> 
@@ -56,9 +56,31 @@
 									} ?>
 									</tbody>
 								</table>
+							</div>
+							<div class="tab-pane" id="earnings">
+								<div class="wid-500 padding-btm">
+									<h4>收益<span class="pull-right small">※金額單位皆為台幣</span></h4>
+									<ul class="termlist">
+										<li><span class="dt">今日</span><span class="dd">NT$ 500.00</span></li>
+										<li><span class="dt">昨日</span><span class="dd">NT$ 999.00</span></li>
+										<li><span class="dt">本月</span><span class="dd">NT$ 89,555.00</span></li>
+										<li><span class="dt">尚未提領</span><span class="dd">NT$ 89,555.00</span></li>
+									</ul>
+									<div class="text-right margin-tb">
+										<a href="" class="btn btn-primary btn-md">我要提領</a>
+									</div>
+									<div class="line" style="padding-top: 30px; margin-bottom: 30px; "></div>
+									<h4>瀏覽數</h4>
+									<ul class="termlist">
+										<li><span class="dt">今日</span><span class="dd">1,188</span></li>
+										<li><span class="dt">昨日</span><span class="dd">24,267</span></li>
+										<li><span class="dt">本月</span><span class="dd">999,999</span></li>
+									</ul>
+								</div>
 								
 							</div>
 						</div>
+						
 					</div>
 				</div>
 			</div>

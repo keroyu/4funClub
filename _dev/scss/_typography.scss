@@ -2,6 +2,7 @@
 	text-align: center;
 	> * { margin: 0 auto; }
 }
+.text-right { text-align: right; }
 
 .text-overflow {
 	white-space: nowrap;
@@ -14,6 +15,7 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.padding-btm { padding-bottom: 20px; }
 
 .pull-right { float: right; }
 
