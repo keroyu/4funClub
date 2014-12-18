@@ -21,6 +21,16 @@
 	&:hover { background: $submitBtnOn; }
 	&:active { position: relative; top: 1px; }
 }
+.btn-default {
+	&:link, &:visited {
+		background: #555;
+		color: #fff;
+		border-radius: 6px;
+		box-shadow: 1px 1px 2px #ccc;
+	}
+	&:hover { background: #3C3C3C; }
+	&:active { position: relative; top: 1px; }
+}
 .btn-md {
 	line-height: 32px;
 	font-size: 20px;

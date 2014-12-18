@@ -66,8 +66,17 @@
 										<li><span class="dt">本月</span><span class="dd">NT$ 89,555.00</span></li>
 										<li><span class="dt">尚未提領</span><span class="dd">NT$ 89,555.00</span></li>
 									</ul>
-									<div class="text-right margin-tb">
-										<a href="" class="btn btn-primary btn-md">我要提領</a>
+									<div class="text-right margin-btm margin-tpsm">
+										<a href="#" class="btn btn-primary btn-md switchToggle" data-show="#getMoneyBox" id="getMoneyBoxBtn">我要提領</a>
+										<div id="getMoneyBox" class="margin-top sendDataBox" style="display: none;">
+											<div class="form-field">
+												欲提款金額：<input type="text" class="input-big wid-150" placeholder="0"> 元
+											</div>
+											<div class="alert-box">您輸入的金額大於可提領金額，請重新輸入</div>
+											<div class="btns">
+												<a href="#" class="btn btn-primary btn-md">確定</a><a href="" class="btn btn-default btn-md switchToggleClose" data-hide="#getMoneyBox" data-show="#getMoneyBoxBtn">取消</a>
+											</div>
+										</div>
 									</div>
 									<div class="line" style="padding-top: 30px; margin-bottom: 30px; "></div>
 									<h4>瀏覽數</h4>
@@ -77,7 +86,20 @@
 										<li><span class="dt">本月</span><span class="dd">999,999</span></li>
 									</ul>
 								</div>
-								
+							</div>
+							<div class="tab-pane" id="records">
+								<table class="mytable" width="500">
+									<thead>
+										<tr><th width="50%">提領日期</th><th width="50%">金額 (新台幣)</th></tr>
+										<tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>2014/11/07</td>
+											<td>100</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
 						</div>
 						

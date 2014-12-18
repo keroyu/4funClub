@@ -18,9 +18,16 @@ p {
 .line {
 	display: block;
 	height: 2px;
-	border-bottom: 2px  solid #ccc;
+	border-bottom: 2px  solid #828282;
 }
 .wid-800 { width: 800px; }
 .wid-500 { width: 500px; }
 .wid-400 { width: 400px; }
 .wid-200 { width: 200px; }
+.wid-150 { width: 150px; }
+.alert-box { 
+	background: #F6C2C6; 
+	color: #A02D3A;
+	padding: 5px;
+	text-align: center;
+}

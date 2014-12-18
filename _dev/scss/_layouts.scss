@@ -57,5 +57,16 @@ header + .adbox-fw {
 		text-align: left;
 	}
 }
+.sendDataBox {
+	font-size: 18px;
+	.alert-box { font-size: 15px;  }
+	.btns {
+		text-align: right;
+		margin-top: 10px;
+		a:not(:last-of-type) {
+			margin-right: 5px;
+		}
+	}
+}
 
 

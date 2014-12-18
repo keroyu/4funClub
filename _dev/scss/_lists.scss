@@ -84,11 +84,12 @@
 	}
 }
 .termlist {
-	border: 1px solid #ccc;
+	border: 1px solid #828282;
 	li {
 		font-size: 20px;
 		line-height: 40px;
-		border-bottom: 1px solid #ccc;
+		border-bottom: 1px solid #828282;
+		&:last-child { border-bottom: none; }
 		span {
 			display: inline-block;
 			text-align: center;
@@ -96,7 +97,7 @@
 				width: 150px;
 			}
 			&.dd {
-				width: 280px;
+				width: 248px;
 				color: $primaryColorDeep;
 			}
 		}

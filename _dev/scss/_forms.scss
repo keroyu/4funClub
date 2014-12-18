@@ -68,3 +68,10 @@ select, textarea, input[type=text] {
 		margin-left: 5px;
 	}
 }
+input[type=text] {
+	&.input-big {
+		padding: 8px 12px 5px 10px;
+		font-size: 22px;
+		text-align: right;
+	}
+}
