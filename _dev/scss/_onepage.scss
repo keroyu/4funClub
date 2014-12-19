@@ -1,0 +1,81 @@
+.regMain {
+	min-height: 720px;
+	h2 {
+		padding: 20px 0;
+	}
+	h3 { 
+		font-size: 20px;
+		&:first-of-type {
+			margin-bottom: 20px;
+		}
+	}
+	.bordered { 
+		padding: 10px 20px;
+		width: 650px;
+		margin: 10px auto;
+	}
+	p {
+		font-size: 20px;	
+		margin: 20px 0 50px 0;
+	}
+	
+	.line {
+		margin: 10px 20px;
+		border-bottom: 2px  solid #ccc;
+	}
+	.myForm {
+		margin-left: 70px;
+		span.alert-box {
+			display: inline-block;
+			margin: 5px 148px 10px 0;
+		}
+	}
+}
+.errorPage {
+	padding-top: 50px;
+	min-height: 750px;
+}
+.aboutPage {
+	padding: 20px 30px;
+	margin: 0 40px 20px 40px;
+	min-height: 750px;
+	border: 1px solid #808080;
+	.mid {
+		margin-top: 30px;
+		overflow: hidden;
+		h3 {
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		
+		.leftcol, .rightcol { float: left; }
+		.leftcol {
+			width: 260px;
+			height: 305px;
+			background: url(../img/about_pic2.jpg) no-repeat;
+		}
+		.rightcol {
+			width: 550px;
+			h4 {
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+			.info-box {
+				margin-bottom: 8px;
+			}
+			p {
+				line-height: 135%;
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.mytable {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 50px;
+	}
+	.btn-xlarge {
+		margin-top: 30px;
+	}
+}

@@ -30,6 +30,8 @@ html[xmlns] .clearfix, html[xmlns] .breadcrumb { display: block; }
 
 .text-right { text-align: right; }
 
+.text-left { text-align: left; }
+
 .text-overflow, .ranklist li, .mytable .title, .myForm .text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .margin-tpsm { margin-top: 10px; }
@@ -75,6 +77,8 @@ p:not(:first-child) { margin-bottom: 10px; }
 .wid-150 { width: 150px; }
 
 .alert-box { background: #F6C2C6; color: #A02D3A; padding: 5px; text-align: center; }
+
+.info-box { background: #fffcbc; padding: 10px; }
 
 .bold { font-weight: bold; }
 
@@ -168,7 +172,9 @@ p:not(:first-child) { margin-bottom: 10px; }
 
 .btn-md { line-height: 32px; font-size: 20px; padding: 5px 20px; }
 
-.btn-large { line-height: 58px; padding: 0 18px; border-radius: 5px; font-size: 18px; }
+.btn-large { padding: 0 20px; border-radius: 5px; font-size: 22px; line-height: 52px; }
+
+.btn-xlarge { padding: 0 35px; border-radius: 5px; font-size: 28px; line-height: 56px; }
 
 .pager { overflow: hidden; }
 .pager li { display: inline-block; }
@@ -232,6 +238,9 @@ p:not(:first-child) { margin-bottom: 10px; }
 .termlist li span.dd { width: 248px; color: #e25700; }
 .termlist + .btn { margin: 10px  0 40px 0; }
 
+.dotList { margin-left: 25px; list-style-image: url("../img/ranknumber_bg.png"); }
+.dotList li { line-height: 25px; }
+
 .row { overflow: hidden; }
 .row .row-col { float: left; height: auto; }
 
@@ -240,8 +249,11 @@ p:not(:first-child) { margin-bottom: 10px; }
 .col-300 { width: 300px; }
 
 .mytable { text-align: center; margin-right: auto; margin-left: auto; border: 1px solid #555; font-size: 16px; line-height: 30px; }
-.mytable thead tr { line-height: 40px; background: #fffcbc; font-weight: bold; }
-.mytable tbody td { padding: 3px 0px; border-bottom: 1px solid #808080; }
+.mytable thead tr { background: #fffcbc; font-weight: bold; border-bottom: 1px solid #808080; }
+.mytable thead th { padding: 8px 0px; }
+.mytable tbody td { border-bottom: 1px solid #808080; padding: 5px 0; }
+.mytable th, .mytable td { vertical-align: middle; line-height: 135%; }
+.mytable th:not(:last-child), .mytable td:not(:last-child) { border-right: 1px solid #808080; }
 .mytable .title { text-align: left; width: 500px; }
 
 .myForm h3 { font-size: 30px; padding: 15px 0; }
@@ -307,15 +319,6 @@ header + .adbox-fw { margin: 20px 0; }
 .sendDataBox .btns { text-align: right; margin-top: 10px; }
 .sendDataBox .btns a:not(:last-of-type) { margin-right: 5px; }
 
-.regMain { min-height: 720px; }
-.regMain h2 { padding: 20px 0; }
-.regMain .bordered { padding: 10px 20px; width: 650px; margin: 10px auto; }
-.regMain p { font-size: 20px; margin: 20px 0 50px 0; }
-.regMain h3 { font-size: 20px; }
-.regMain h3:first-of-type { margin-bottom: 20px; }
-.regMain .line { margin: 10px 20px; border-bottom: 2px  solid #ccc; }
-.regMain .myForm { margin-left: 70px; }
-
 .articleWrapper { border: 1px solid #808080; }
 
 .article { margin: 15px; text-align: left; }
@@ -343,6 +346,30 @@ footer p { color: #ccc; font-size: 14px; padding-top: 10px; padding-bottom: 30px
 footer p a:link, footer p a:visited { color: #ccc; margin-right: 6px; text-decoration: underline; }
 footer p a:hover { color: #2a7fff; }
 footer p span { font-family: Verdana, Geneva, sans-serif; }
+
+.regMain { min-height: 720px; }
+.regMain h2 { padding: 20px 0; }
+.regMain h3 { font-size: 20px; }
+.regMain h3:first-of-type { margin-bottom: 20px; }
+.regMain .bordered { padding: 10px 20px; width: 650px; margin: 10px auto; }
+.regMain p { font-size: 20px; margin: 20px 0 50px 0; }
+.regMain .line { margin: 10px 20px; border-bottom: 2px  solid #ccc; }
+.regMain .myForm { margin-left: 70px; }
+.regMain .myForm span.alert-box { display: inline-block; margin: 5px 148px 10px 0; }
+
+.errorPage { padding-top: 50px; min-height: 750px; }
+
+.aboutPage { padding: 20px 30px; margin: 0 40px 20px 40px; min-height: 750px; border: 1px solid #808080; }
+.aboutPage .mid { margin-top: 30px; overflow: hidden; }
+.aboutPage .mid h3 { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+.aboutPage .mid .leftcol, .aboutPage .mid .rightcol { float: left; }
+.aboutPage .mid .leftcol { width: 260px; height: 305px; background: url(../img/about_pic2.jpg) no-repeat; }
+.aboutPage .mid .rightcol { width: 550px; }
+.aboutPage .mid .rightcol h4 { font-weight: bold; margin-bottom: 5px; }
+.aboutPage .mid .rightcol .info-box { margin-bottom: 8px; }
+.aboutPage .mid .rightcol p { line-height: 135%; margin-bottom: 0px; }
+.aboutPage .mytable { margin-left: 0px; margin-right: 0px; margin-bottom: 50px; }
+.aboutPage .btn-xlarge { margin-top: 30px; }
 
 @media screen and (min-width: 769px) { .hidden-big { display: none; } }
 @media screen and (max-width: 768px) { .hidden-md { display: none; }

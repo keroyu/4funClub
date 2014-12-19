@@ -101,3 +101,10 @@
 		margin: 10px  0 40px 0;
 	}
 }
+.dotList {
+	margin-left: 25px;
+	list-style-image: url('../img/ranknumber_bg.png');
+	li {
+		line-height: 25px;
+	}
+}
