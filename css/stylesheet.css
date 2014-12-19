@@ -307,14 +307,14 @@ header + .adbox-fw { margin: 20px 0; }
 .sendDataBox .btns { text-align: right; margin-top: 10px; }
 .sendDataBox .btns a:not(:last-of-type) { margin-right: 5px; }
 
-.reg { min-height: 720px; }
-.reg h2 { padding: 20px 0; }
-.reg .bordered { padding: 10px 20px; width: 650px; margin: 10px auto; }
-.reg p { font-size: 20px; margin: 20px 0 50px 0; }
-.reg h3 { font-size: 20px; }
-.reg h3:first-of-type { margin-bottom: 20px; }
-.reg .line { margin: 10px 20px; border-bottom: 2px  solid #ccc; }
-.reg .myForm { margin-left: 70px; }
+.regMain { min-height: 720px; }
+.regMain h2 { padding: 20px 0; }
+.regMain .bordered { padding: 10px 20px; width: 650px; margin: 10px auto; }
+.regMain p { font-size: 20px; margin: 20px 0 50px 0; }
+.regMain h3 { font-size: 20px; }
+.regMain h3:first-of-type { margin-bottom: 20px; }
+.regMain .line { margin: 10px 20px; border-bottom: 2px  solid #ccc; }
+.regMain .myForm { margin-left: 70px; }
 
 .articleWrapper { border: 1px solid #808080; }
 

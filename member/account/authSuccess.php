@@ -13,14 +13,13 @@
 <div class="page">
 	<?php require_once "../../_php/header.php" ?>
 	<div class="wrapper">
-		<div class="reg">
+		<div class="regMain">
 			<h2>會員註冊</h2>
 			<div class="bordered">
 				<p>帳號認證成功！歡迎加入會員</p>
 				<a href="/index.html" class="btn btn-secondary btn-md margin-btm">回到首頁</a>
 			</div>
 		</div>
-		
 	</div>
 <!-- wrapper indexMain end -->
 <?php require_once "../../_php/footer.php" ?>

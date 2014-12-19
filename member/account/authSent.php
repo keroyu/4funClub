@@ -13,14 +13,13 @@
 <div class="page">
 	<?php require_once "../../_php/header.php" ?>
 	<div class="wrapper">
-		<div class="reg">
+		<div class="regMain">
 			<h2>會員註冊</h2>
 			<div class="bordered">
 				<p>系統已寄送帳號認證信至您的Email信箱，<br>請前往收取信件，並依照信中說明完成認證。</p>
 				<a href="/index.html" class="btn btn-secondary btn-md margin-btm">回到首頁</a>
 			</div>
 		</div>
-		
 	</div>
 <!-- wrapper indexMain end -->
 <?php require_once "../../_php/footer.php" ?>

@@ -13,13 +13,13 @@
 <div class="page">
 	<?php require_once "../../_php/header.php" ?>
 	<div class="wrapper">
-	<div class="reg">
-			<h2>會員註冊</h2>
-			<div class="bordered">
-				<p>您的帳號尚未通過信箱認證，<br>請先進行信箱認證，謝謝！</p>
-				<a href="" class="btn btn-secondary btn-md margin-btm">重新寄送認證信件</a>
-			</div>
+	<div class="regMain">
+		<h2>會員註冊</h2>
+		<div class="bordered">
+			<p>您的帳號尚未通過信箱認證，<br>請先進行信箱認證，謝謝！</p>
+			<a href="" class="btn btn-secondary btn-md margin-btm">重新寄送認證信件</a>
 		</div>
+	</div>
 		
 	</div>
 <!-- wrapper indexMain end -->
