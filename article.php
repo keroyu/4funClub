@@ -39,7 +39,7 @@
 							<i class="fa fa-tag"></i><ul><li><a href="#">標籤1</a></li><li><a href="#">標籤2</a></li><li><a href="#">標籤3</a></li></ul>
 						</div>
 						<div class="info">
-							<a href="#">作者1號</a>作者1號 / 2014-12-01 / <a href="#">檢舉</a><div class="fbbox"><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div></div>
+							<a href="#">作者1號</a>作者1號 / 2014-12-01 / <a href="#" class="ltbox-mode" data-page="popup/report.html" data-lbwid="600" data-lbhgt="360" data-clshgt="24">檢舉</a><div class="fbbox"><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div></div>
 						</div>
 					</div>
 					<article>
