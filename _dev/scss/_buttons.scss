@@ -91,3 +91,15 @@
 	height: 39px;
 	&:hover { background-position: 0 -39px; }	
 }
+.atcSupply {
+	&:link, &:visited {
+		background: #F6C2C6; 
+		color: #A02D3A;
+		padding: 2px 5px;
+	}
+	&:hover {
+		background: #D51C0F;
+		color: #fff;
+	}
+	
+}
