@@ -84,6 +84,8 @@ p:not(:first-child) { margin-bottom: 10px; }
 
 .red { color: #D51C0F; }
 
+.yellow { color: #FFAA2A; }
+
 .fs-16 { font-size: 16px; }
 
 .fs-18 { font-size: 18px; }
@@ -187,6 +189,9 @@ p:not(:first-child) { margin-bottom: 10px; }
 .fbreg { background: url(../img/btn_fbreg.png) no-repeat; width: 248px; height: 39px; }
 .fbreg:hover { background-position: 0 -39px; }
 
+.atcSupply:link, .atcSupply:visited { background: #F6C2C6; color: #A02D3A; padding: 2px 5px; }
+.atcSupply:hover { background: #D51C0F; color: #fff; }
+
 .tabsbox-nav { z-index: 1; position: relative; top: 1px; }
 .tabsbox-nav li div { overflow: hidden; border-top: 1px solid #808080; border-left: 1px solid #808080; border-right: 1px solid #808080; }
 .tabsbox-nav li.active { height: 41px; }
@@ -265,6 +270,7 @@ p:not(:first-child) { margin-bottom: 10px; }
 .myForm .text a i { color: green; }
 .myForm .text a.lower { position: relative; top: 5px; }
 .myForm .text a.btn { padding: 5px 15px; background: #fffcbc; }
+.myForm .text.wid-500 { width: 500px; }
 .myForm .text.wid-800 { width: 800px; }
 
 select, textarea, input[type=text], input[type=password] { border: 1px solid #808080; font-size: 16px; line-height: 20px; padding: 3px 5px; }
@@ -284,14 +290,17 @@ input[type=text].input-md, input[type=password].input-md { padding: 5px 10px; fo
 
 .black-mode { background: #000; position: absolute; top: 0px; opacity: 0.7; height: 0px; overflow: hidden; z-index: 100; }
 
-.keroslightbox { display: none; text-align: center; height: 0px; z-index: 101; }
+.keroslightbox { display: none; text-align: center; height: 0px; z-index: 101; -webkit-box-shadow: 2px 2px 4px #555; box-shadow: 2px 2px 4px #555; }
 
-.keroslightbox .box { position: absolute; z-index: 9999; height: 0px; padding: 20px; background: #fff; /*top: 800px;*/ border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; background: #fff; background: #e2e2e2; }
-.keroslightbox .box .close { cursor: pointer; font-family: Arial; display: inline-block; color: #e1e1e1; float: right; font-size: 35px; margin: 5px 10px 0 0; height: 0px; overflow: hidden; }
-.keroslightbox .box .close:hover { color: #555; }
-.keroslightbox .box .inner-box { border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; background: #fff; padding: 20px; }
-.keroslightbox .box .inner-box h1 { float: left; text-align: left; font-size: 24px; color: #f00; margin: 0 0 20px 0; }
-.keroslightbox .box .inner-box p.time { text-align: left; margin: 10px 0 0 0; }
+.keroslightbox .box { position: absolute; z-index: 9999; height: 0px; padding: 20px; background: #e2e2e2; }
+.keroslightbox .box .close { overflow: hidden; float: right; cursor: pointer; display: inline-block; margin: 10px 10px 0 0; width: 24px; height: 0px; background: url(../img/btn_close.png) no-repeat; }
+.keroslightbox .box .close:hover { background-position: 0 -24px; }
+.keroslightbox .box .inner-box { background: #fff; padding: 20px; }
+
+.popup { font-family: "microsoft jhenghei"; }
+.popup h3 { font-size: 24px; font-weight: bold; color: #ffb301; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 2px solid #ffb301; }
+.popup h4 { font-size: 20px; margin-top: 15px; margin-bottom: 15px; }
+.popup.login .alert-box { display: inline-block; }
 
 header + .adbox-fw { margin: 20px 0; }
 
