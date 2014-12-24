@@ -28,9 +28,12 @@
 						<tr>
 						</thead>
 						<tbody>
+							<tr> <td>2014.11.11</td> <td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td> <td>15 / 300 / 1673</td> <td><a class="ltbox-mode btn atcSupply" href="#" data-page="manage_articles_apply.html" data-lbwid="650" data-lbhgt="400" data-clshgt="24">X 申訴</a></td> </tr>
+							<tr> <td>2014.11.11</td> <td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td> <td>15 / 300 / 1673</td> <td><span class="btn rejected red">X 拒絕</span></td> </tr>
+							<tr> <td>2014.11.11</td> <td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td> <td>15 / 300 / 1673</td> <td><span class="btn yellow">X 確認中</span></td> </tr>
 							<?php 
 							$str = '<tr> <td>2014.11.11</td> <td><p class="title"><a href="#">文章標題放這裡文章標題放這裡文章章標題放這裡文章章標題放這裡文章</a></p></td> <td>15 / 300 / 1673</td> <td><span class="btn success">發佈</span></td> </tr>';
-							for ($i=0; $i<10; $i++) { echo $str; }
+							for ($i=0; $i<7; $i++) { echo $str; }
 							 ?>
 						</tbody>
 					</table>
