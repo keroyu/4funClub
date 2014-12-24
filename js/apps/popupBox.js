@@ -1,7 +1,7 @@
 (function() {
   var addHtml, basicLightBoxStart;
 
-  addHtml = '<div class="black-mode" id="black-mode"> </div> <div class="keroslightbox"> <div class="box"> <span class="close">X</span> <div class="inner-box"> </div> </div> </div>';
+  addHtml = '<div class="black-mode" id="black-mode"> </div> <div class="keroslightbox"> <div class="box"> <span class="close"></span> <div class="inner-box"> </div> </div> </div>';
 
   $('body').append(addHtml);
 
@@ -31,6 +31,7 @@
 
   $(".ltbox-mode").click(function(event) {
     var boxHgt, boxWid, closeHgt, isblack, targetPage;
+    console.log('ok');
     event.preventDefault();
     isblack = $("#black-mode").css("height");
     if (isblack === "0px") {
@@ -40,7 +41,6 @@
       closeHgt = $(this).data("clshgt");
       basicLightBoxStart(boxWid, boxHgt, closeHgt);
       $(".keroslightbox .inner-box").load(targetPage);
-      console.log(targetPage);
     }
   });
 

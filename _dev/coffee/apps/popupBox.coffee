@@ -1,19 +1,14 @@
 addHtml = '<div class="black-mode" id="black-mode"> </div>
-<div class="keroslightbox"> <div class="box"> <span class="close">X</span> <div class="inner-box"> </div> </div> </div>'
+<div class="keroslightbox"> <div class="box"> <span class="close"></span> <div class="inner-box"> </div> </div> </div>'
 
 $('body').append addHtml
 
-
 # TARGET ELEMENT TO APPLY LIGHTBOX MODE 
-
 # CHECK IF THE BLACK MODE IS ON 
-
 # IF NOT, ENTER BLACK MODE 
-
 # POPUP LIGHTBOX 
+
 basicLightBoxStart = (boxWid, boxHgt, closeHgt) ->
-  
-  #DEFINE SCALE OF BLACK DIV
   dw = $(document).width()
   dh = $(document).height()
   $("#black-mode").css
@@ -22,7 +17,7 @@ basicLightBoxStart = (boxWid, boxHgt, closeHgt) ->
 
   ww = $(window).width()
   wh = $(window).height()
-  sch = $(document).scrollTop() # DEFINE POSTION OF LIGHTBOX
+  sch = $(document).scrollTop() 
   $(".keroslightbox").show()
   $(".keroslightbox .box").css
     width: boxWid + "px"
@@ -33,7 +28,9 @@ basicLightBoxStart = (boxWid, boxHgt, closeHgt) ->
   $(".keroslightbox .inner-box").css "height", boxHgt - 40 + "px"
   $(".keroslightbox .close").css height: closeHgt + "px"
   return
+
 $(".ltbox-mode").click (event) ->
+  console.log 'ok'
   event.preventDefault()
   isblack = $("#black-mode").css("height")
   if isblack is "0px"
@@ -43,7 +40,6 @@ $(".ltbox-mode").click (event) ->
     closeHgt = $(this).data("clshgt")
     basicLightBoxStart boxWid, boxHgt, closeHgt
     $(".keroslightbox .inner-box").load targetPage
-    console.log targetPage
   return
 
 
