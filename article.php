@@ -60,8 +60,8 @@
 				</div>
 			</div>
 			<div class="adbox adbox-inMain-300">
-				<img src="upload/300x250.jpg" alt="">
-				<img src="upload/300x250.jpg" alt="">
+				<div><img src="upload/300x250.jpg" alt=""></div>
+				<div><img src="upload/300x250.jpg" alt=""></div>
 			</div>
 			<ul class="pager margin-tb">
 				<li class="prev"><a href="#" class="btn">< 上一篇</a></li>

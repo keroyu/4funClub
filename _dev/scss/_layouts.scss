@@ -21,8 +21,11 @@ header + .adbox-fw {
 .adbox-inMain-300 {
 	text-align: left;
 	margin-top: 20px;
-	img:first-of-type {
-		margin-right: 36px;
+	div { 
+		display: inline-block; 
+		&:first-of-type {
+			margin-right: 36px;
+		}
 	}
 }
 .articleMain {

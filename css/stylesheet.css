@@ -309,7 +309,8 @@ header + .adbox-fw { margin: 20px 0; }
 .indexMain .rank-list, .articleMain .rank-list { border: 1px solid #808080; }
 
 .adbox-inMain-300 { text-align: left; margin-top: 20px; }
-.adbox-inMain-300 img:first-of-type { margin-right: 36px; }
+.adbox-inMain-300 div { display: inline-block; }
+.adbox-inMain-300 div:first-of-type { margin-right: 36px; }
 
 .articleMain { overflow: hidden; }
 
