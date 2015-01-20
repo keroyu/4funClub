@@ -1,7 +1,6 @@
 addHtml = '<div class="black-mode" id="black-mode"> </div>
 <div class="keroslightbox"> <div class="box"> <span class="close"></span> <div class="inner-box"> </div> </div> </div>'
-
-$('body').append addHtml
+$('.page').append addHtml
 
 # TARGET ELEMENT TO APPLY LIGHTBOX MODE 
 # CHECK IF THE BLACK MODE IS ON 
@@ -12,7 +11,7 @@ basicLightBoxStart = (boxWid, boxHgt, closeHgt) ->
   dw = $(document).width()
   dh = $(document).height()
   $("#black-mode").css
-    width: dw + "px"
+    width: "100%"
     height: dh + "px"
 
   ww = $(window).width()
@@ -30,7 +29,6 @@ basicLightBoxStart = (boxWid, boxHgt, closeHgt) ->
   return
 
 $(".ltbox-mode").click (event) ->
-  console.log 'ok'
   event.preventDefault()
   isblack = $("#black-mode").css("height")
   if isblack is "0px"

@@ -1,3 +1,6 @@
+@media screen and (max-width:1024px) {
+	#articleShareBox { display: none; }
+}
 @media screen and (min-width:769px) {
 
 .hidden-big { display: none; }
@@ -48,7 +51,7 @@
 	}
 }
 .article {
-	img { width: 100%; height: auto; }
+	img { width: 100% !important; height: auto !important; }
 }
 .adbox-inMain-300 {
 	text-align: center;

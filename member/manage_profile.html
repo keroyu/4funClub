@@ -8,12 +8,13 @@
 <head>
 <title>4 FUN CLUB 個人資料</title>
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<link rel="stylesheet" href="/css/stylesheet.css">
 <script src="/js/jquery.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="/css/stylesheet.css">
 <script data-main="/js/main" src="/js/require.min.js"></script>
 <!--[if lt IE 9]>
-  <script src="js/html5shiv.js"></script>
-  <script src="js/respond.min.js"></script>
+  <script src="/js/html5shiv.js"></script>
+  <script src="/js/respond.min.js"></script>
 <![endif]-->
 </head>
 <body>
@@ -21,10 +22,10 @@
 	<header>
 <div class="header hidden-md">
 	<div class="wrapper">
-		<h1 class="header-logo"><a href="#">4 Fun Club</a></h1>
+		<h1 class="header-logo"><a href="/index.html">4 Fun Club</a></h1>
 		<div class="header-rpanel">
 			<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-			<ul class="rplink-list"><li><a href="#">登入</a></li><li><a href="#">註冊</a></li></ul>
+			<ul class="rplink-list"><li><a href="#" class="ltbox-mode" data-page="/popup/memberLogin.html" data-lbwid="700" data-lbhgt="450" data-clshgt="24">登入</a></li><li><a href="#">註冊</a></li></ul>
 		</div>
 		<div class="navbar clearfix">
 			<div class="navbar-border left"></div>
@@ -32,7 +33,7 @@
 				<div class="top"></div>
 				<nav>
 					<ul class="navbar-links">
-						<li><a href="#"><i class="fa fa-home"></i></a></li><li class="active"><a href="#">最新</a></li><li><a href="#">熱門</a></li><li><a href="#">美食</a></li><li><a href="#">旅遊</a></li><li><a href="#">動物</a></li><li><a href="#">爆笑</a></li><li><a href="#">蒐奇</a></li><li><a href="#">正妹</a></li><li><a href="#">影片</a></li><li><a href="#">生活</a></li><li><a href="#">幫助</a></li>
+						<li><a href="/index.html"><i class="fa fa-home"></i></a></li><li class="active"><a href="#">最新</a></li><li><a href="#">熱門</a></li><li><a href="#">美食</a></li><li><a href="#">旅遊</a></li><li><a href="#">動物</a></li><li><a href="#">爆笑</a></li><li><a href="#">蒐奇</a></li><li><a href="#">正妹</a></li><li><a href="#">影片</a></li><li><a href="#">生活</a></li><li><a href="#">幫助</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -59,7 +60,7 @@
 			</ul>
 			<div class="tabsbox-content text-center">
 				<div class="bordered">
-					<form action="">
+					<form>
 						<div class="myForm margin-top">
 							<div class="form-field">
 								<label for="">註冊方式：</label>
@@ -83,8 +84,30 @@
 							</div>
 							<div class="form-field">
 								<label for="" class="lower">密碼：</label>
-								<div class="text"><a href="#" class="btn">修改密碼</a></div>
+								<div class="text"><a href="#" class="btn">修改密碼</a><div><span style="font-size:14px"><br>
+							    系統將會發送密碼修改信件至您的註冊信箱，請依照信件內容<br>
+							    進行修改密碼。</span></div></div>
 							</div>
+                            <div class="form-field">
+								<label for="" class="lower">聯絡電話：</label>
+								<div class="text wid-800"><input type="text" class="wid-200" placeholder="輸入電話號碼"></div>
+							</div>
+                            <div class="form-field">
+								<label for="" class="lower">聯絡地址：</label>
+								<div class="text wid-800"><input type="text" class="wid-400" placeholder="輸入聯絡地址"></div>
+							</div>
+                            <div class="form-field">
+								<label for="" class="lower">實名驗證：</label>
+								<div class="text"><a href="#" class="btn">進行實名驗證</a>
+								<div><span style="font-size:14px"><br>
+							    需通過實名驗證才能進行收益提領。審核資料需等候1至3個工<br>
+						      作日，敬請耐心等待。</span></div></div>
+					    </div>
+                        <div class="form-field">
+								<label for="">實名驗證：</label>
+								<div class="text">已驗證<div><span style="font-size:14px"><br>
+							    姓名或戶籍地址有變更請<a href="#" class="btn">重新驗證</a></span></div></div>
+						  </div>
 							<div class="form-field">
 								<label for="" class="lower">提領設定：</label>
 								<div class="text"><a href="#" class="btn">歐付寶帳號設定</a></div>

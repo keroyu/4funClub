@@ -4,6 +4,6 @@
 <link rel="stylesheet" href="/css/stylesheet.css">
 <script data-main="/js/main" src="/js/require.min.js"></script>
 <!--[if lt IE 9]>
-  <script src="js/html5shiv.js"></script>
-  <script src="js/respond.min.js"></script>
+  <script src="/js/html5shiv.js"></script>
+  <script src="/js/respond.min.js"></script>
 <![endif]-->

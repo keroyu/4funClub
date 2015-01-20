@@ -24,7 +24,7 @@
 			</div>
 			<div class="form-field">
 				<label for="" class="lower">密碼：</label>
-				<div class="text"><input type="password" placeholder="輸入4-12個英文或數字" class="input-md wid-300"></div>
+				<div class="text" style="width: 480px;"><input type="password" placeholder="輸入4-12個英文或數字" class="input-md wid-300"><a href="passwordFind.html" class="link">忘記密碼？</a> | <a href="register.html" class="link">註冊</a></div>
 			</div>
 			<div class="form-field">
 				<label for="" style="opacity: 0;">提示欄</label>

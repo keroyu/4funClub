@@ -2,19 +2,23 @@
   background: #000; 
   position: absolute;
   top: 0px;
-  opacity: 0.7; height: 0px;
+  height: 0px;
+  opacity: 0.7; 
   overflow: hidden;
   z-index: 100;
+  -moz-opacity: 0.70;
+  filter: alpha(opacity=70);
 }
 
 .keroslightbox {
   display: none; 
   text-align: center; 
-  height: 0px;
   z-index: 101;
+  width: 100%;
   box-shadow: 2px 2px 4px #555;
 }
 .keroslightbox .box {
+  margin: 0 auto;
   position: absolute; 
   z-index: 9999; 
   height: 0px; 

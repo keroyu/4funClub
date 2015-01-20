@@ -25,7 +25,7 @@
 		<h1 class="header-logo"><a href="/index.html">4 Fun Club</a></h1>
 		<div class="header-rpanel">
 			<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-			<ul class="rplink-list"><li><a href="#" class="ltbox-mode" data-page="/popup/memberLogin.html" data-lbwid="700" data-lbhgt="450" data-clshgt="24">登入</a></li><li><a href="#">註冊</a></li></ul>
+			<ul class="rplink-list"><li><a href="#">登入</a></li><li><a href="#">註冊</a></li></ul>
 		</div>
 		<div class="navbar clearfix">
 			<div class="navbar-border left"></div>
@@ -53,35 +53,57 @@
 	<div class="wrapper">
 		
 		<div class="regMain">
-			<h2>會員註冊</h2>
+			<h2>實名驗證</h2>
 			<div class="bordered">
-				<p><input type="checkbox" >我已閱讀並同意 <a href="#" class="link">使用者合約</a></p>
-				<h3>快速註冊</h3>
-				<a href="#" class="btn fbreg"></a>
-				<div class="line"></div>
+					
 				<div class="margin-tb">
-					<h3>使用信箱註冊</h3>
+                <div class="alert-box">依稅法規定，收益所得需計入個人所得，請提供下列資料供開立扣繳憑單所用。</div>
 					<div class="myForm margin-top">
+                    <div class="form-field">
+							<label for="" class="lower">國籍：</label><div class="text"><input type="radio" name="radio" id="radio" value="radio"></label>
+							  持中華民國身份證
+							  <input type="radio" name="radio" id="radio" value="radio"></label>
+非持中華民國身份證</div>
+                    </div>
 						<div class="form-field">
-							<label for="" class="lower">Email：</label>
-							<div class="text"><input type="text" placeholder="Email即為您的登入帳號" class="input-md wid-300"></div>
+							<label for="" class="lower">姓名：</label>
+							<div class="text"><input type="text" placeholder="輸入姓名" class="input-md wid-300"></div>
 						</div>
 						<div class="form-field">
-							<label for="" class="lower">密碼：</label>
-							<div class="text"><input type="password" placeholder="輸入4-12個英文或數字" class="input-md wid-300"></div>
+							<label for="" class="lower">身分證字號：</label>
+							<div class="text"><input type="text" placeholder="輸入身份證字號，英文+數字共10碼" class="input-md wid-300"></div>
 						</div>
 						<div class="form-field">
-							<label for="" class="lower">確認密碼：</label>
-							<div class="text"><input type="password" placeholder="再次輸入您的密碼" class="input-md wid-300"></div>
+							<label for="" class="lower">戶籍地址：</label>
+							<div class="text"><input type="text" placeholder="輸入戶籍地址" class="input-md wid-300"></div>
 						</div>
-						<div class="form-field">
-							<label for="" class="lower">顯示暱稱：</label>
-							<div class="text"><input type="text" placeholder="輸入4-12個字元，可使用中英文數字" class="input-md wid-300"></div>
-						</div>
-						<div class="form-btns">
+                  </div>
+                        <div class="line"></div>
+                 <h3>身份證上傳</h3>
+                 <div class="myForm margin-top">
+				<div class="form-field">
+							<label for="" class="lower">身分證正面：</label>
+				  <div class="text"><a href="#" class="btn">瀏覽...</a></div>
+				   </div>
+                   <div class="form-field">
+							<label for="" class="lower">身分證背面：</label>
+				  <div class="text"><a href="#" class="btn">瀏覽...</a></div>
+                  <div class="form-field">
+								<label for=""><br>
+							    注意事項：</label>
+					<div class="text"><br>
+					  1.限.jpg或.gif格式，總大小限5MB內。 <br>
+					  <br>
+2.為避免申請失敗，上傳前請確認檔案顯示是否清楚</div>
+					 </div>
+
+				   </div>		
+                </div>
+                 
+                 
+                    <div class="form-btns">
 							<a href="#" class="btn btn-md btn-primary">送出</a>
 						</div>
-					</div>
 				</div>
 			</div>
 		</div>

@@ -11,53 +11,53 @@
 </head>
 <body>
 <div class="page">
-<?php require_once "_php/header.php" ?>
-<div class="adbox adbox-fw hidden-md">
-	<div class="wrapper"><img src="upload/720x90.jpg" alt=""></div>
-</div>
-<div class="wrapper indexMain">
-	<div class="row">
-		<div class="row-col col-640">
-			<ul class="media-blocks bordered">
-				<li><a href="article.html"><div>
-						<img src="upload/300x165.jpg" alt="">
-						<h3>BBC《主題樂園》主要園區包含「福爾摩斯」和「Doctor Who」？BBC《主題樂園》主要園區包含...</h3></div>
-					</a></li><li><a href="#">
-					<div><img src="upload/300x165.jpg" alt="">
-						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
-					</a></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
-						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
-					</a></li></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
-						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
-					</a></li><li class="adbox"><a href="#">
-						<div><img src="upload/300x250.jpg" alt=""></div>
-					</a></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
-						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們再糟糕的天氣也阻止不了柴柴們《惡劣天氣的散步柴</h3></div>
-					</a></li></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
-						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
-					</a></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
-						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
-					</a></li></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
-						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
-					</a></li>
-			</ul>
-		</div>
-		<!-- col-640 end -->
-		<div class="row-col col-300 hidden-sm" id="rightCol">
-			<div class="adbox adbox-300"><img src="upload/300x300.jpg" alt=""></div>
-			<?php include "_php/widgets/tabsbox.php"; ?>
-			<div class="adbox adbox-300"><img src="upload/300x600.jpg" alt=""></div>
-		</div>
-		<!-- col-300 end -->
+	<?php require_once "_php/header.php" ?>
+	<div class="adbox adbox-fw hidden-md">
+		<div class="wrapper"><img src="upload/720x90.jpg" alt=""></div>
 	</div>
-	<!-- row end -->
-</div>
+	<div class="wrapper indexMain">
+		<div class="row">
+			<div class="row-col col-640">
+				<ul class="media-blocks bordered">
+					<li><a href="article.html"><div>
+							<img src="upload/300x165.jpg" alt="" width="300" height="165">
+							<h3>BBC《主題樂園》主要園區包含「福爾摩斯」和「Doctor Who」？BBC《主題樂園》主要園區包含...</h3></div>
+						</a></li><li><a href="#">
+						<div><img src="upload/300x165.jpg" alt="" width="300" height="165">
+							<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
+						</a></li><li><a href="#"><div>
+							<img src="upload/300x165.jpg" alt="" width="300" height="165">
+							<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
+						</a></li></li><li><a href="#"><div>
+							<img src="upload/300x165.jpg" alt="" width="300" height="165">
+							<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
+						</a></li><li class="adbox"><a href="#" width="300" height="165">
+							<div><img src="upload/300x250.jpg" alt=""></div>
+						</a></li><li><a href="#"><div>
+							<img src="upload/300x165.jpg" alt="" width="300" height="165">
+							<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們再糟糕的天氣也阻止不了柴柴們《惡劣天氣的散步柴</h3></div>
+						</a></li></li><li><a href="#"><div>
+							<img src="upload/300x165.jpg" alt="" width="300" height="165">
+							<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
+						</a></li><li><a href="#"><div>
+							<img src="upload/300x165.jpg" alt="" width="300" height="165">
+							<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
+						</a></li></li><li><a href="#"><div>
+							<img src="upload/300x165.jpg" alt="" width="300" height="165">
+							<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
+						</a></li>
+				</ul>
+			</div>
+			<!-- col-640 end -->
+			<div class="row-col col-300 hidden-sm" id="rightCol">
+				<div class="adbox adbox-300"><img src="upload/300x300.jpg" width="300" height="300" alt=""></div>
+				<?php include "_php/widgets/tabsbox.php"; ?>
+				<div class="adbox adbox-300"><img src="upload/300x600.jpg" width="300" height="300" alt=""></div>
+			</div>
+			<!-- col-300 end -->
+		</div>
+		<!-- row end -->
+	</div>
 <!-- wrapper indexMain end -->
 <?php require_once "_php/footer.php" ?>
 </div>

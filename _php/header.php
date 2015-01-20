@@ -4,7 +4,7 @@
 		<h1 class="header-logo"><a href="/index.html">4 Fun Club</a></h1>
 		<div class="header-rpanel">
 			<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-			<ul class="rplink-list"><li><a href="#" class="ltbox-mode" data-page="/popup/memberLogin.html" data-lbwid="700" data-lbhgt="450" data-clshgt="24">登入</a></li><li><a href="#">註冊</a></li></ul>
+			<ul class="rplink-list"><li><a href="#" class="ltbox-mode" data-page="/popup/pop_CM.html" data-lbwid="700" data-lbhgt="450" data-clshgt="24">登入</a></li><li><a href="#">註冊</a></li></ul>
 		</div>
 		<div class="navbar clearfix">
 			<div class="navbar-border left"></div>

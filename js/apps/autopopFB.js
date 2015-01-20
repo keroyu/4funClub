@@ -1,5 +1,5 @@
 (function() {
-  var addHtml, basicLightBoxStart;
+  var addHtml, basicLightBoxStart, popFB;
 
   addHtml = '<div class="black-mode" id="black-mode"> </div> <div class="keroslightbox"> <div class="box"> <span class="close"></span> <div class="inner-box"> </div> </div> </div>';
 
@@ -29,29 +29,12 @@
     });
   };
 
-  $(".ltbox-mode").click(function(event) {
-    var boxHgt, boxWid, closeHgt, isblack, targetPage;
-    event.preventDefault();
-    isblack = $("#black-mode").css("height");
-    if (isblack === "0px") {
-      targetPage = $(this).data("page");
-      boxWid = $(this).data("lbwid");
-      boxHgt = $(this).data("lbhgt");
-      closeHgt = $(this).data("clshgt");
-      basicLightBoxStart(boxWid, boxHgt, closeHgt);
-      $(".keroslightbox .inner-box").load(targetPage);
-    }
-  });
+  popFB = function() {
+    basicLightBoxStart("80%", 500, 24);
+    $(".keroslightbox .inner-box").load("/popup/pop_CM.html");
+    console.log('hi');
+  };
 
-  $(".keroslightbox .close").click(function() {
-    $("#black-mode").css({
-      height: "0px"
-    });
-    $(".keroslightbox").hide();
-    $(".keroslightbox .box, .keroslightbox .close").css({
-      height: "0px"
-    });
-    $(".keroslightbox .inner-box").html("");
-  });
+  popFB();
 
 }).call(this);

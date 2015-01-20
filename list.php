@@ -21,36 +21,36 @@
 			<?php include "_php/breadcrumb.php" ?>
 			<ul class="media-blocks bordered">
 				<li><a href="article.php"><div>
-						<img src="upload/300x165.jpg" alt="">
+						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>BBC《主題樂園》主要園區包含「福爾摩斯」和「Doctor Who」？BBC《主題樂園》主要園區包含...</h3></div>
 					</a></li><li><a href="#">
-					<div><img src="upload/300x165.jpg" alt="">
+					<div><img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
 					</a></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
+						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
 					</a></li></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
+						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
 					</a></li><li class="adbox"><a href="#">
-						<div><img src="upload/300x240.jpg" alt=""></div>
+						<div><img src="upload/300x240.jpg" alt="" width="300" height="240" ></div>
 					</a></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
+						<img src="//placehold.it/500x500"  alt="">
 						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們再糟糕的天氣也阻止不了柴柴們《惡劣天氣的散步柴</h3></div>
 					</a></li></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
+						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
 					</a></li><li><a href="#"><div>
-						<img src="upload/300x165.jpg" alt="">
+						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
 					</a></li>
 			</ul>
 		</div>
 		<!-- col-640 end -->
 		<div class="row-col col-300 hidden-sm" id="rightCol">
-			<div class="adbox adbox-300"><img src="upload/300x300.jpg" alt=""></div>
+			<div class="adbox adbox-300"><img src="upload/300x300.jpg" width="300" height="300" alt=""></div>
 			<?php include "_php/widgets/tabsbox.php"; ?>
-			<div class="adbox adbox-300"><img src="upload/300x600.jpg" alt=""></div>
+			<div class="adbox adbox-300"><img src="upload/300x600.jpg" width="300" height="300" alt=""></div>
 		</div>
 		<!-- col-300 end -->
 	</div>

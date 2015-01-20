@@ -11,6 +11,16 @@
 	}
 	&:active { background: #364984; }
 }
+.btn-lineshare {
+	&:visited, &:link {
+		background: #00C300;
+		color: #fff;
+	}
+	&:hover {
+		background: #07F507;
+	}
+	&:active { background: #3B7303; }
+}
 .btn-primary {
 	&:link, &:visited {
 		background: $submitBtn;

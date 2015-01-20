@@ -161,6 +161,10 @@ p:not(:first-child) { margin-bottom: 10px; }
 .btn-fbshare:hover { background: #7F92CB; }
 .btn-fbshare:active { background: #364984; }
 
+.btn-lineshare:visited, .btn-lineshare:link { background: #00C300; color: #fff; }
+.btn-lineshare:hover { background: #07F507; }
+.btn-lineshare:active { background: #3B7303; }
+
 .btn-primary:link, .btn-primary:visited { background: #53a600; color: #fff; border-radius: 6px; -webkit-box-shadow: 1px 1px 2px #ccc; box-shadow: 1px 1px 2px #ccc; }
 .btn-primary:hover { background: #3b7303; }
 .btn-primary:active { position: relative; top: 1px; }
@@ -288,11 +292,11 @@ input[type=text].input-md, input[type=password].input-md { padding: 5px 10px; fo
 .input-withIcon input[type=text] { border: none; }
 .input-withIcon + .btn { line-height: 35px; padding: 0 30px; margin-left: 5px; }
 
-.black-mode { background: #000; position: absolute; top: 0px; opacity: 0.7; height: 0px; overflow: hidden; z-index: 100; }
+.black-mode { background: #000; position: absolute; top: 0px; height: 0px; opacity: 0.7; overflow: hidden; z-index: 100; -moz-opacity: 0.70; filter: alpha(opacity=70); }
 
-.keroslightbox { display: none; text-align: center; height: 0px; z-index: 101; -webkit-box-shadow: 2px 2px 4px #555; box-shadow: 2px 2px 4px #555; }
+.keroslightbox { display: none; text-align: center; z-index: 101; width: 100%; -webkit-box-shadow: 2px 2px 4px #555; box-shadow: 2px 2px 4px #555; }
 
-.keroslightbox .box { position: absolute; z-index: 9999; height: 0px; padding: 20px; background: #e2e2e2; }
+.keroslightbox .box { margin: 0 auto; position: absolute; z-index: 9999; height: 0px; padding: 20px; background: #e2e2e2; }
 .keroslightbox .box .close { overflow: hidden; float: right; cursor: pointer; display: inline-block; margin: 10px 10px 0 0; width: 24px; height: 0px; background: url(../img/btn_close.png) no-repeat; }
 .keroslightbox .box .close:hover { background-position: 0 -24px; }
 .keroslightbox .box .inner-box { background: #fff; padding: 20px; }
@@ -337,7 +341,10 @@ header + .adbox-fw { margin: 20px 0; }
 .article-head a:link, .article-head a:visited { color: #6D6D6D; }
 .article-head a:hover { color: #2a7fff; }
 .article-head .info { margin-top: 10px; color: #6D6D6D; font-size: 14px; }
-.article-head .fbbox { float: right; overflow: hidden; width: 84px; position: relative; bottom: 2px; }
+.article-head .snsbox { float: right; position: relative; bottom: 2px; width: 104px; }
+.article-head .snsbox .fb-like { float: left; }
+.article-head .snsbox .line { display: inline-block; background: url(https://media.line.me/img/button/zh-hant/20x20.png) no-repeat; -webkit-background-size: 20px auto; background-size: 20px auto; width: 20px; height: 20px; margin-left: 5px; }
+.article-head .snsbox .line:link, .article-head .snsbox .line:visited { border: none; }
 
 .tags { overflow: hidden; }
 .tags .fa-tag { color: #6D6D6D; margin-right: 2px; font-size: 16px; }
@@ -345,13 +352,16 @@ header + .adbox-fw { margin: 20px 0; }
 .tags ul li { display: inline-block; margin: 0 5px; font-size: 14px; }
 
 article { margin-top: 15px; margin-bottom: 15px; }
+article iframe { width: 100% !important; }
+
+.shareBtns .btn-fbshare { margin-bottom: 5px; }
 
 .article-info { font-size: 14px; color: #808080; }
 
 .articleShareBox { position: absolute; top: 337px; margin-left: -390px; background: #fffcbc; display: inline-block; width: 65px; padding: 10px 2px; border-top: 1px solid #808080; border-left: 1px solid #808080; border-bottom: 1px solid #808080; }
 .articleShareBox .title { display: inline-block; width: 40px; line-height: 20px; margin-bottom: 15px; }
 
-footer { z-index: 0; background: #404040; border-top: 5px solid #ffb301; }
+footer { margin-top: 15px; z-index: 0; background: #404040; border-top: 5px solid #ffb301; }
 footer p { color: #ccc; font-size: 14px; padding-top: 10px; padding-bottom: 30px; line-height: 25px; }
 footer p a:link, footer p a:visited { color: #ccc; margin-right: 6px; text-decoration: underline; }
 footer p a:hover { color: #2a7fff; }
@@ -381,6 +391,7 @@ footer p span { font-family: Verdana, Geneva, sans-serif; }
 .aboutPage .mytable { margin-left: 0px; margin-right: 0px; margin-bottom: 50px; }
 .aboutPage .btn-xlarge { margin-top: 30px; }
 
+@media screen and (max-width: 1024px) { #articleShareBox { display: none; } }
 @media screen and (min-width: 769px) { .hidden-big { display: none; } }
 @media screen and (max-width: 768px) { .hidden-md { display: none; }
   .wrapper { width: 100%; overflow: hidden; }
@@ -393,7 +404,7 @@ footer p span { font-family: Verdana, Geneva, sans-serif; }
   .rank-list .rank-number span { position: relative; top: 2px; }
   .rank-list li:active, .rank-list li:hover { background: #eee; }
   .rank-list li a { font-size: 16px; line-height: 30px; }
-  .article img { width: 100%; height: auto; }
+  .article img { width: 100% !important; height: auto !important; }
   .adbox-inMain-300 { text-align: center; }
   .adbox-inMain-300 img { text-align: center; margin: 0 auto; float: none; display: block; }
   .adbox-inMain-300 img:first-of-type { margin-left: 0px; margin-right: 0px; margin: 0 auto; margin-bottom: 10px; } }
@@ -403,7 +414,7 @@ footer p span { font-family: Verdana, Geneva, sans-serif; }
   .article { margin: 5px; }
   .article h2 { font-size: 20px; }
   .btn-large { line-height: 45px; border-radius: 5px; font-size: 16px; display: block; } }
-@media screen and (max-width: 381px) { .article-head .fbbox { float: none; margin-top: 10px; top: 0px; width: 280px; }
+@media screen and (max-width: 381px) { .article-head .snsbox { float: none; margin-top: 10px; top: 0px; width: 280px; }
   .adbox-inMain-300 img { width: 100%; } }
 /*! jQuery UI - v1.11.2 - 2014-10-16
 * http://jqueryui.com

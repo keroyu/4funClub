@@ -17,12 +17,24 @@
 		color: #6D6D6D;
 		font-size: 14px; 
 	}
-	.fbbox {
+	.snsbox {
 		float: right;
-		overflow: hidden;
-		width: 84px;
 		position: relative;
 		bottom: 2px;
+		width: 104px;
+		.fb-like {
+			float: left;
+			
+		}
+		.line {
+			display: inline-block;
+			background: url(https://media.line.me/img/button/zh-hant/20x20.png) no-repeat;
+			background-size: 20px auto;
+			width: 20px;
+			height: 20px;
+			margin-left: 5px;
+			&:link, &:visited { border: none; }
+		}
 	}
 }
 .tags {
@@ -44,6 +56,14 @@
 article {
 	margin-top: 15px;
 	margin-bottom: 15px;
+	iframe {
+		width: 100% !important;
+	}
+}
+.shareBtns {
+	.btn-fbshare {
+		margin-bottom: 5px;
+	}
 }
 .article-info {
 	font-size: 14px;
