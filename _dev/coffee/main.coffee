@@ -4,6 +4,5 @@ require([
 	'apps/tabsControl'
 	'apps/floatObj'
 	'apps/popupBox'
-	'apps/autopopFB'
 	'apps/datePicker'
 ])
