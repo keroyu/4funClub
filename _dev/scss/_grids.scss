@@ -1,5 +1,5 @@
 .row {
-	overflow: hidden;
+	@extend .clearfix;
 	.row-col { float: left; height: auto; }
 }
 
