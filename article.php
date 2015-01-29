@@ -28,9 +28,11 @@
 		<div class="row-col col-640">
 			<?php include "_php/breadcrumb.php" ?>
 			<div class="articleWrapper">
-				<div class="hidden-md articleShareBox" id="articleShareBox">
-					<span class="title">分享文章</span>
-					<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div>
+				<div class="articleShareBoxWrapper hidden-md">
+					<div class=" articleShareBox" id="articleShareBox">
+						<span class="title">分享文章</span>
+						<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div>
+					</div>
 				</div>
 				<div class="article">
 					<div class="article-head">
@@ -41,8 +43,8 @@
 						<div class="info">
 							<a href="#">作者1號</a>作者1號 / 2014-12-01 / <a href="#" class="ltbox-mode" data-page="popup/report.html" data-lbwid="600" data-lbhgt="360" data-clshgt="24">檢舉</a>
 							<div class="snsbox">
-								<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
 								<a href="http://line.naver.jp/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp%3A%2F%2Fline.naver.jp%2F" class="line"></a>
+								<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 							</div>
 						</div>
 					</div>
@@ -109,7 +111,7 @@
 					</a></li>
 			</ul>
 			<h3 class="title"><i class="fa fa-smile-o"></i>立刻按「讚」！讓您隨時看到更多有趣的內容</h3>
-			<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="100%" data-height="450px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+			<div class="fb-like-box" data-href="https://www.facebook.com/pages/4fun-club/405053299661627" data-width="100%" data-height="450px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 		</div>
 		<!-- col-640 end -->
 		<div class="row-col col-300 hidden-sm">

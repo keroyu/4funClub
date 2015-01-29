@@ -1,3 +1,9 @@
+// @media screen and (max-width:1440px) {
+// 	.floatRbFB {
+// 		display: none;
+// 	}
+// } 
+
 @media screen and (max-width:1024px) {
 	#articleShareBox { display: none; }
 }
@@ -55,7 +61,7 @@
 }
 .adbox-inMain-300 {
 	text-align: center;
-	img {
+	div {
 		text-align: center;
 		margin: 0 auto;
 		float: none;
