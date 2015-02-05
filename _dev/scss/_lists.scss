@@ -27,6 +27,21 @@
 		}
 	}
 }
+.linklist {
+	border: 1px solid #808080;
+	padding: 10px 15px;
+	li {
+		@extend .text-overflow;
+		text-align: left;
+		a {
+			color: $linkText;
+			text-decoration: underline;
+			font-size: 1em;
+			line-height: 32px;
+			&:hover { color: #000; }
+		}
+	}
+}
 .ranklist {
 	text-align: left;
 	border: 1px solid #808080;

@@ -32,7 +32,7 @@ html[xmlns] .clearfix, html[xmlns] .breadcrumb, html[xmlns] .row { display: bloc
 
 .text-left { text-align: left; }
 
-.text-overflow, .ranklist li, .mytable .title, .myForm .text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.text-overflow, .linklist li, .ranklist li, .mytable .title, .myForm .text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .margin-tpsm { margin-top: 10px; }
 
@@ -233,6 +233,11 @@ p:not(:first-child) { margin-bottom: 10px; }
 .media-blocks li a > div { margin: 0 5px; }
 .media-blocks li h3 { display: block; margin: 0 auto; text-align: left; font-size: 16px; line-height: 145%; padding-top: 10px; }
 .media-blocks li img { width: 100%; height: auto; }
+
+.linklist { border: 1px solid #808080; padding: 10px 15px; }
+.linklist li { text-align: left; }
+.linklist li a { color: #2a7fff; text-decoration: underline; font-size: 1em; line-height: 32px; }
+.linklist li a:hover { color: #000; }
 
 .ranklist { text-align: left; border: 1px solid #808080; padding: 10px 15px; }
 .ranklist .rank-number { display: inline-block; background: url(../img/ranknumber_bg.png) no-repeat; width: 17px; height: 16px; position: relative; bottom: 5px; margin-right: 4px; font-size: 0.6em; text-align: center; }
