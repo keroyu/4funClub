@@ -49,12 +49,12 @@
 						</div>
 					</div>
 					<article>
+						<iframe width="560" height="315" src="//www.youtube.com/embed/-WXRp0hR1e4?wmode=transparent" frameborder="0" wmode="Opaque" allowfullscreen></iframe>
 						<p>國來太而一子境馬條黃後不一臺人者不事。</p><p>友先整講幾有我有去。後送多話其心你是錢天界？</p>
 						<div class="text-center">
 							<img src="upload/400x300.jpg" alt="">
 							<p class="article-info">圖片來源：www.omg.com</p>
 						</div>
-						<iframe width="560" height="315" src="//www.youtube.com/embed/-WXRp0hR1e4" frameborder="0" allowfullscreen></iframe>
 						<p>性家作？動然新整適拉靜他味吸什時南著華當的節，理出認，叫沒保；一書充望產，手情影玩線出單候，人學教學們了目相、終蘭單金至助處題部成一的言通意、集他個車不不選界變將真環一提們地初當子不中護較片人阿關或的式樂企得物由他活不你念否安影們；日商假日大們？</p><p>的李立由不調民一用的已，眾續現著下良運巴岸二了太成力成把於何研什位中。年傳的然員手友國呢影老是方假登下，阿不法備學光關但化新會低己經媽數。大得力風條活定力示的事非眼天裡為是過一，代山媽是前字論；樣也率和心。</p><p>論商在物然關動對慢古五中住出黑活就不原人基府以細一熱……另終入買驚境。</p><p>性過地把院，所是電生不後意才少了一重立委電未能收質至：成月土然另，高無眼觀我形來善於？家可部我望點路位可更小現士來，調生局眼，人位發球進好子定就太都意的請，來館名關作一動們性花義！</p>
 						<div class="text-center">
 							<div class="adbox adbox-300"><img src="upload/300x300.jpg" alt=""></div>
