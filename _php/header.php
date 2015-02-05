@@ -27,5 +27,8 @@
 	</ul>
 	<div class="header-logo-mb"></div>
 </div>
+<div class="anotherLogo hidden-big">
+	<img src="img/logo_mbig.jpg" alt="4fun Club">
+</div>
 
 </header>
