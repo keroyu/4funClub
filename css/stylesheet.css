@@ -161,7 +161,7 @@ p:not(:first-child) { margin-bottom: 10px; }
 .btn-fbshare:hover { background: #7F92CB; }
 .btn-fbshare:active { background: #364984; }
 
-.btn-lineshare:visited, .btn-lineshare:link { background: #00C300; color: #fff; }
+.btn-lineshare:visited, .btn-lineshare:link { background: #00C300; color: #fff; font-size: 15px; }
 .btn-lineshare:hover { background: #07F507; }
 .btn-lineshare:active { background: #3B7303; }
 
@@ -412,7 +412,8 @@ footer p span { font-family: Verdana, Geneva, sans-serif; }
   .adbox-inMain-300 { text-align: center; }
   .adbox-inMain-300 div { text-align: center; margin: 0 auto; float: none; display: block; }
   .adbox-inMain-300 div:first-of-type { margin-left: 0px; margin-right: 0px; margin: 0 auto; margin-bottom: 10px; } }
-@media screen and (max-width: 561px) { .hidden-sm { display: none; }
+@media screen and (max-width: 561px) { .indexMain .media-blocks li { width: 100%; margin-bottom: 5px; }
+  .hidden-sm { display: none; }
   .article { margin: 5px; }
   .article h2 { font-size: 20px; }
   .btn-large { line-height: 45px; border-radius: 5px; font-size: 16px; display: block; }

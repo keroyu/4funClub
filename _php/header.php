@@ -28,7 +28,7 @@
 	<div class="header-logo-mb"></div>
 </div>
 <div class="anotherLogo hidden-big">
-	<img src="img/logo_mbig.jpg" alt="4fun Club">
+	<a href="//www.4-fun.club"><img src="img/logo_mbig.jpg" alt="4fun Club"></a>
 </div>
 
 </header>
