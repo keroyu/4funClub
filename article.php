@@ -112,6 +112,9 @@
 			</ul>
 			<h3 class="title"><i class="fa fa-smile-o"></i>立刻按「讚」！讓您隨時看到更多有趣的內容</h3>
 			<div class="fb-like-box" data-href="https://www.facebook.com/pages/4fun-club/405053299661627" data-width="100%" data-height="450px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+			<div class="text-center">
+				<a href="#" class="btn btn-shareIcon line"></a><a href="#" class=" btn btn-shareIcon facebook"></a>
+			</div>
 		</div>
 		<!-- col-640 end -->
 		<div class="row-col col-300 hidden-sm">

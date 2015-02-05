@@ -196,6 +196,12 @@ p:not(:first-child) { margin-bottom: 10px; }
 .atcSupply:link, .atcSupply:visited { background: #F6C2C6; color: #A02D3A; padding: 2px 5px; }
 .atcSupply:hover { background: #D51C0F; color: #fff; }
 
+.btn-shareIcon { width: 67px; height: 67px; border: none; }
+.btn-shareIcon.line { background: url(../img/icon_line.jpg) no-repeat; margin-right: 10px; }
+.btn-shareIcon.line:hover { background-position: 0 -67px; }
+.btn-shareIcon.facebook { background: url(../img/icon_facebook.jpg) no-repeat; }
+.btn-shareIcon.facebook:hover { background-position: 0 -67px; }
+
 .tabsbox-nav { z-index: 1; position: relative; top: 1px; }
 .tabsbox-nav li div { overflow: hidden; border-top: 1px solid #808080; border-left: 1px solid #808080; border-right: 1px solid #808080; }
 .tabsbox-nav li.active { height: 41px; }

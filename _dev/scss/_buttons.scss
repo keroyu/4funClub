@@ -114,3 +114,22 @@
 	}
 	
 }
+
+.btn-shareIcon {
+	width: 67px;
+	height: 67px;
+	border: none;
+	&.line {
+		background: url(../img/icon_line.jpg) no-repeat;
+		margin-right: 10px;
+		&:hover {
+			background-position: 0 -67px;
+		}
+	}
+	&.facebook {
+		background: url(../img/icon_facebook.jpg) no-repeat;
+		&:hover {
+			background-position: 0 -67px;
+		}
+	}
+}
