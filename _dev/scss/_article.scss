@@ -92,3 +92,7 @@ article {
 	border-left: 1px solid #808080;
 	border-bottom: 1px solid #808080;
 }
+
+.snsbox iframe {
+	z-index: 9999 !important;
+}
