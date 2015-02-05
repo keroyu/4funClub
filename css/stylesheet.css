@@ -236,7 +236,7 @@ p:not(:first-child) { margin-bottom: 10px; }
 
 .linklist { border: 1px solid #808080; padding: 10px 15px; }
 .linklist li { text-align: left; }
-.linklist li a { color: #2a7fff; text-decoration: underline; font-size: 1em; line-height: 32px; }
+.linklist li a { color: #2a7fff; text-decoration: underline; font-size: 14px; line-height: 24px; }
 .linklist li a:hover { color: #000; }
 
 .ranklist { text-align: left; border: 1px solid #808080; padding: 10px 15px; }
