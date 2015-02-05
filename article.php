@@ -94,7 +94,7 @@
 					<li><span class="rank-number"><span>10</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>
 				</ul>
 			</div>
-			<h3 class="title hidden-big"><i class="fa fa-smile-o"></i>您可能感興趣的文章</h3>	
+			<h3 class="title"><i class="fa fa-smile-o"></i>您可能感興趣的文章</h3>	
 			<ul class="media-blocks margin-btm">
 				<li><a href="article.php"><div>
 						<img src="upload/300x165.jpg" alt="">
@@ -112,7 +112,7 @@
 			</ul>
 			<h3 class="title"><i class="fa fa-smile-o"></i>立刻按「讚」！讓您隨時看到更多有趣的內容</h3>
 			<div class="fb-like-box" data-href="https://www.facebook.com/pages/4fun-club/405053299661627" data-width="100%" data-height="450px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-			<div class="text-center">
+			<div class="text-center hidden-big">
 				<a href="#" class="btn btn-shareIcon line"></a><a href="#" class=" btn btn-shareIcon facebook"></a>
 			</div>
 		</div>
