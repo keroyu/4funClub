@@ -94,7 +94,7 @@
 					<li><span class="rank-number"><span>10</span></span><a href="#">這裡最多顯示十則內容十四個字十四個字</a></li>
 				</ul>
 			</div>
-			<h3 class="title hidden-big"><i class="fa fa-smile-o"></i>可能感興趣的文章</h3>	
+			<h3 class="title hidden-big"><i class="fa fa-smile-o"></i>您可能感興趣的文章</h3>	
 			<ul class="media-blocks margin-btm">
 				<li><a href="article.php"><div>
 						<img src="upload/300x165.jpg" alt="">

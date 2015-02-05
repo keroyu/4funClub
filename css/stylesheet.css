@@ -413,11 +413,10 @@ footer p span { font-family: Verdana, Geneva, sans-serif; }
   .adbox-inMain-300 div { text-align: center; margin: 0 auto; float: none; display: block; }
   .adbox-inMain-300 div:first-of-type { margin-left: 0px; margin-right: 0px; margin: 0 auto; margin-bottom: 10px; } }
 @media screen and (max-width: 561px) { .hidden-sm { display: none; }
-  .media-blocks li { width: 100%; }
-  .media-blocks .adbox { display: none; }
   .article { margin: 5px; }
   .article h2 { font-size: 20px; }
-  .btn-large { line-height: 45px; border-radius: 5px; font-size: 16px; display: block; } }
+  .btn-large { line-height: 45px; border-radius: 5px; font-size: 16px; display: block; }
+  .media-blocks li h3 { font-size: 14px; line-height: 18px; height: 54px; overflow: hidden; } }
 @media screen and (max-width: 381px) { .article-head .snsbox { float: none; margin-top: 10px; top: 0px; width: 280px; }
   .article-head .snsbox .fb-like { float: none; position: relative; bottom: 2px; }
   .adbox-inMain-300 img { width: 100%; }

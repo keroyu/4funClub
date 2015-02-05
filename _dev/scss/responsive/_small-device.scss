@@ -2,12 +2,6 @@
 
 
 .hidden-sm { display: none; }
-.media-blocks {
-	li {
-		width: 100%;
-	}
-	.adbox { display: none; }
-}
 .article {
 	margin: 5px;
 }
@@ -21,6 +15,13 @@
 	font-size: 16px;
 	display: block;
 	
+}
+
+.media-blocks li h3 {
+	font-size: 14px;
+	line-height: 18px;
+	height: 54px;
+	overflow: hidden;
 }
 
 }
