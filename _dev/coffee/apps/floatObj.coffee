@@ -64,11 +64,6 @@ $(window).resize () ->
 	floatModule()
 
 
-
-
-
-
-
 	
 
 

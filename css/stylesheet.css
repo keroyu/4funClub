@@ -256,6 +256,8 @@ p:not(:first-child) { margin-bottom: 10px; }
 .dotList { margin-left: 25px; list-style-image: url("../img/ranknumber_bg.png"); }
 .dotList li { line-height: 25px; }
 
+.movieplay { position: absolute; }
+
 .row .row-col { float: left; height: auto; }
 
 .col-640 { margin-right: 20px; width: 640px; }

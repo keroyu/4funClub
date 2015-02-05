@@ -96,21 +96,28 @@
 			</div>
 			<h3 class="title"><i class="fa fa-smile-o"></i>您可能感興趣的文章</h3>	
 			<ul class="media-blocks margin-btm">
-				<li><a href="article.php"><div>
+				<li>
+					<a href="article.php">
+					<div>
+						<span class="btn movieplay"></span>
 						<img src="upload/300x165.jpg" alt="">
 						<h3>BBC《主題樂園》主要園區包含「福爾摩斯」和「Doctor Who」？BBC《主題樂園》主要園區包含...</h3></div>
 					</a></li><li><a href="#">
-					<div><img src="upload/300x165.jpg" alt="">
+					<div>
+						<span class="btn movieplay"></span>
+						<img src="upload/300x165.jpg" alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
-					</a></li><li><a href="#"><div>
+					</a></li><li><a href="#">
+					<div>
 						<img src="upload/300x165.jpg" alt="">
 						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
-					</a></li></li><li><a href="#"><div>
+					</a></li></li><li><a href="#">
+					<div>
 						<img src="upload/300x165.jpg" alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
 					</a></li>
 			</ul>
-			<h3 class="title"><i class="fa fa-smile-o"></i>立刻按「讚」！讓您隨時看到更多有趣的內容</h3>
+			<h3 class="title"><i class="fa fa-smile-o"></i>立即按「讚」！有趣文章隨時看</h3>
 			<div class="fb-like-box" data-href="https://www.facebook.com/pages/4fun-club/405053299661627" data-width="100%" data-height="450px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 			<div class="text-center hidden-big">
 				<a href="#" class="btn btn-shareIcon line"></a><a href="#" class=" btn btn-shareIcon facebook"></a>
