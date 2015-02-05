@@ -46,10 +46,10 @@ html[xmlns] .clearfix, html[xmlns] .breadcrumb, html[xmlns] .row { display: bloc
 
 .pull-right { float: right; }
 
-h3.title { text-align: left; font-size: 20px; color: #e25700; background: #fffcbc; padding: 5px 10px; margin-bottom: 15px; }
-h3.title i { margin-right: 5px; }
+h2 { font-size: 28px; line-height: 135%; color: #000; margin: 10px 0; }
 
-h2 { font-size: 28px; line-height: 135%; color: #e25700; margin: 10px 0; }
+h3.title { text-align: left; font-size: 20px; color: #000; background: #ffb301; padding: 5px 10px; margin-top: 15px; margin-bottom: 15px; }
+h3.title i { margin-right: 5px; }
 
 a:link, a:visited { cursor: pointer; color: #000; text-decoration: none; }
 

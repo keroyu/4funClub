@@ -21,12 +21,20 @@
 
 .pull-right { float: right; }
 
+h2 {
+	font-size: 28px;
+	line-height: 135%;
+	color: #000;
+	margin: 10px 0;
+}
+
 h3.title {
 	text-align: left;
 	font-size: 20px;
-	color: $primaryColorDeep;
-	background: $primaryColorShallow;
+	color: #000;
+	background: $primaryColor;
 	padding: 5px 10px;
+	margin-top: 15px;
 	margin-bottom: 15px;
 	i { margin-right: 5px; }
 }

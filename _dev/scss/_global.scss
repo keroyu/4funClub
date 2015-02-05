@@ -2,13 +2,6 @@
 // CAN apear for MORE THAN ONCE
 // EX: normal text link, tabs...
 
-h2 {
-	font-size: 28px;
-	line-height: 135%;
-	color: #e25700;
-	margin: 10px 0;
-}
-
 a:link, a:visited { cursor: pointer; color: #000; text-decoration: none; }
 a:hover {  color: $linkText; } 
 p {
