@@ -21,6 +21,7 @@
 			<?php include "_php/breadcrumb.php" ?>
 			<ul class="media-blocks bordered">
 				<li><a href="article.php"><div>
+					<span class="btn movieplay"></span>
 						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>BBC《主題樂園》主要園區包含「福爾摩斯」和「Doctor Who」？BBC《主題樂園》主要園區包含...</h3></div>
 					</a></li><li><a href="#">

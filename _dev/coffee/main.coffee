@@ -12,7 +12,6 @@ resizeMovieBtn = ()->
 	$('.movieplay').each ()->
 		wid = $(this).parents().find('li img').width()
 		hgt = $(this).parents().find('li img').height()
-		console.log wid,hgt
 		$(this).css {
 			"width": wid + 'px'
 			"height": hgt + 'px'
@@ -23,3 +22,11 @@ resizeMovieBtn = ()->
 resizeMovieBtn()
 $(window).resize () ->
 	resizeMovieBtn()
+
+# FIX YOUTUBE OVERLAY
+$('article iframe').each ()->
+	src = $(this).attr('src')
+	isYoutube = src.indexOf('youtube')
+	if isYoutube > 0
+		newSrc = src + '?wmode=transparent'
+		$(this).attr('src', newSrc)

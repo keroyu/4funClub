@@ -8,7 +8,6 @@
       var hgt, wid;
       wid = $(this).parents().find('li img').width();
       hgt = $(this).parents().find('li img').height();
-      console.log(wid, hgt);
       return $(this).css({
         "width": wid + 'px',
         "height": hgt + 'px',
@@ -22,6 +21,16 @@
 
   $(window).resize(function() {
     return resizeMovieBtn();
+  });
+
+  $('article iframe').each(function() {
+    var isYoutube, newSrc, src;
+    src = $(this).attr('src');
+    isYoutube = src.indexOf('youtube');
+    if (isYoutube > 0) {
+      newSrc = src + '?wmode=transparent';
+      return $(this).attr('src', newSrc);
+    }
   });
 
 }).call(this);
