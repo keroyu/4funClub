@@ -15,7 +15,7 @@
 <div class="adbox adbox-fw hidden-md">
 	<div class="wrapper"><img src="upload/720x90.jpg" alt=""></div>
 </div>
-<div class="wrapper">
+<div class="wrapper listMain">
 	<div class="row">
 		<div class="row-col col-640">
 			<?php include "_php/breadcrumb.php" ?>

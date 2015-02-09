@@ -1,8 +1,10 @@
 @media screen and (max-width: 561px) {
 
-.indexMain .media-blocks li{
-	width: 100%;
-	margin-bottom: 5px;
+.indexMain, .listMain{
+	.media-blocks li{
+		width: 100%;
+		margin-bottom: 5px;
+	}
 }
 
 .hidden-sm { display: none; }
@@ -31,6 +33,9 @@
 
 @media screen and (max-width: 381px) {
 
+h3.title {
+	font-size: 18px;
+}
 .article-head .snsbox {
 	float: none;
 	margin-top: 10px;

@@ -117,7 +117,7 @@
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
 					</a></li>
 			</ul>
-			<h3 class="title"><i class="fa fa-smile-o"></i>立即按「讚」！有趣文章隨時看</h3>
+			<h3 class="title"><i class="fa fa-smile-o"></i>立即按「讚」！文章隨時看</h3>
 			<div class="fb-like-box" data-href="https://www.facebook.com/pages/4fun-club/405053299661627" data-width="100%" data-height="450px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 			<div class="text-center hidden-big">
 				<a href="#" class="btn btn-shareIcon line"></a><a href="#" class=" btn btn-shareIcon facebook"></a>
