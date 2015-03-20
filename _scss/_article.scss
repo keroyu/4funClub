@@ -7,7 +7,7 @@
 }
 .article-head {
 	border-bottom: 2px solid $primaryColorDeep;
-	padding-bottom: 12px;
+	padding-bottom: 5px;
 	a {
 		&:link, &:visited { color: #6D6D6D; }
 		&:hover { color: $linkText; }
@@ -16,22 +16,16 @@
 		margin-top: 10px;
 		color: #6D6D6D;
 		font-size: 14px; 
+		height: 22px;
+		.author {
+			float: left;
+		}
 	}
 	.snsbox {
 		float: right;
-		width: 154px;
-		.fb-like {
-			float: right;
-		}
-		.line {
-			display: inline-block;
-			background: url(https://media.line.me/img/button/zh-hant/20x20.png) no-repeat;
-			background-size: 20px auto;
-			width: 20px;
-			height: 20px;
-			margin-right: 5px;
-			&:link, &:visited { border: none; }
-		}
+		width: 135px;
+		height: 40px;
+		z-index: 0;
 	}
 }
 .tags {

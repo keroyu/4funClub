@@ -14,6 +14,17 @@
 
 @media screen and (max-width:768px) {
 
+.snsbox {
+	.line {
+		display: inline-block;
+		background: url(https://media.line.me/img/button/zh-hant/20x20.png) no-repeat;
+		background-size: 20px auto;
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+		&:link, &:visited { border: none; }
+	}
+}
 .hidden-md { display: none; }
 .wrapper {
 	width: 100%;
@@ -38,6 +49,35 @@
 .media-blocks { 
 	border: none; 
 	padding: 0px;
+	.fb-like {
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+}
+.article-head {
+	.info {
+		height: 46px;
+		.author {
+			float: none;
+			display: block;
+		}
+	}
+	.snsbox {
+		float: left;
+		overflow: hidden;
+		margin-top: 10px;
+		top: 0px;
+		width: 165px;
+		height: 36px;
+		.fb-like {
+			bottom: 0px;
+			top: 1px;
+		}
+		.fb-like, .line {
+			float: left;
+			z-index: 0;
+		}
+	}
 }
 .rank-list {
 	.rank-number {

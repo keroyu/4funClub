@@ -1,10 +1,12 @@
 .myForm {
+	&.myform-900 { width: 950px; }
 	h3 {
 		font-size: 30px;
 		padding: 15px 0;
 	}
 	label {
 		float: left;
+		text-align: left;
 		width: 120px;
 		text-align: right;
 		&.lower {
@@ -35,6 +37,7 @@
 		&.wid-500 { width: 500px; }
 		&.wid-800 { width: 800px; }
 	}
+	.reportText { width: 350px; }
 }
 
 select, textarea, input[type=text], input[type=password] {

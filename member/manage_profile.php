@@ -23,7 +23,7 @@
 			<div class="tabsbox-content text-center">
 				<div class="bordered">
 					<form>
-						<div class="myForm margin-top">
+						<div class="myForm myform-900 margin-top">
 							<div class="form-field">
 								<label for="">註冊方式：</label>
 								<div class="text">Facebook</div>

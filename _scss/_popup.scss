@@ -22,7 +22,7 @@
   position: absolute; 
   z-index: 9999; 
   height: 0px; 
-  padding: 20px;
+  padding: 5px;
   background: #e2e2e2;
 
   .close {
@@ -40,7 +40,8 @@
   }
 
   .inner-box{
-    background: #fff; padding: 20px;
+    background: #fff; 
+    padding: 10px;
   }
 }
 
@@ -87,3 +88,4 @@
   z-index: 100; 
   background: rgb(255, 252, 188);
 }
+

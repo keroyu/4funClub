@@ -16,18 +16,18 @@
 }
 .header-logo, .header-rpanel { float: left; }
 .header-logo {
-	width: 570px;
+	width: 480px;
 	height: 100px;
 	background: url(../img/logo.png) no-repeat;
 	a {
 		float: left;
 		text-indent: -9999px;
-		width: 300px;
+		width: 280px;
 		height: 100px;
 	}
 }
 .header-rpanel {
-	width: 390px;
+	width: 470px;
 	height: 100px;
 	text-align: right;
 	iframe { 
@@ -38,16 +38,26 @@
 	}
 }
 .rplink-list {
+	margin-bottom: 8px;
 	li {
 		display: inline-block;
 		font-size: 1.1em;
 		a {
 			display: inline-block;
-			padding: 2px 8px;
 			&:link { color: #000;  }
 			&:hover { color: $linkText; }
 		}
-		&:not(:last-child) { border-right: 1px solid #555; }
+		&.search {
+			position: relative;
+			bottom: 3px;
+			.btn { padding: 0 5px; }
+		}
+		&.login, &.reg { padding: 2px 4px; }
+		&.login { border-right: 1px solid #555; }
+	}
+	.btn-fblogin {
+		position: relative;
+		top: 5px;
 	}
 }
 .navbar {
@@ -91,6 +101,9 @@
 .header-mb {
 	height: 50px;
 	background: $primaryColor; 
+	position: fixed;
+	z-index: 10;
+	width: 100%;
 	.navbtn {
 		float: left;
 		margin-left: 15px;
@@ -108,8 +121,11 @@
 		&:hover, &:active { background: #555; }
 	}
 }
+.anotherLogo {
+	padding-top: 50px;
+}
 .header-logo-mb {
-	width: 150px; height: 50px;
+	width: 130px; height: 50px;
 	display: inline-block;
 	background: url(../img/logo_m.png) no-repeat;
 	position: relative;
@@ -119,10 +135,8 @@
 	display: none;
 	position: absolute;
 	top: 50px;
-	// width: 100%;
 	width: 80px;
-	// background: #404040;
-	z-index: 99;
+	z-index: 999;
 	li {
 		background: #404040;
 		display: block;
@@ -143,6 +157,7 @@
 }
 .breadcrumb {
 	text-align: left;
+	z-index: 0;
 	margin: 5px 0 10px 0;
 	overflow: hidden;
 	background: url(../img/breadcrumb_repeat.png) repeat-x bottom;
@@ -167,4 +182,37 @@
 	float: right;
 	width: 105px; height: 45px;
 	background: url(../img/breadcrumb_rb_m.png) no-repeat;
+}
+
+.headerSearch {
+	height: 50px;
+	float: right;
+	&.active {
+		background: #fff;
+		i { color: #C46806; }
+	}
+	i {
+		line-height: 50px;
+		color: #fff;
+		font-size: 30px;
+		padding: 0 8px;
+	}
+}
+.headerSearchBox {
+	margin-top: 50px;
+	background: #fff;
+	width: 100%;
+	padding: 10px;
+	border-bottom: #ffb301 solid 4px; 
+	box-shadow: 1px 1px 2px #C46806;
+	display: none;
+	.btn {
+		padding: 6px 10px;
+		background: #C46806;
+		color: #fff;
+		margin-left: 5px;
+		&:active {
+			background: #C46806;
+		}
+	}
 }

@@ -10,6 +10,14 @@
 <?php require_once "_php/head.php" ?>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="page">
 <?php require_once "_php/header.php" ?>
 <div class="adbox adbox-fw hidden-md">
@@ -24,27 +32,27 @@
 					<span class="btn movieplay"></span>
 						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>BBC《主題樂園》主要園區包含「福爾摩斯」和「Doctor Who」？BBC《主題樂園》主要園區包含...</h3></div>
-					</a></li><li><a href="#">
+					</a><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li><li><a href="#">
 					<div><img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
-					</a></li><li><a href="#"><div>
+					</a><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li><li><a href="#"><div>
 						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
-					</a></li></li><li><a href="#"><div>
+					</a><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li></li><li><a href="#"><div>
 						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
-					</a></li><li class="adbox"><a href="#">
+					</a><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li><li class="adbox"><a href="#">
 						<div><img src="upload/300x240.jpg" alt="" width="300" height="240" ></div>
 					</a></li><li><a href="#"><div>
 						<img src="//placehold.it/500x500"  alt="">
 						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們再糟糕的天氣也阻止不了柴柴們《惡劣天氣的散步柴</h3></div>
-					</a></li></li><li><a href="#"><div>
+					</a><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li></li><li><a href="#"><div>
 						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《惡劣天氣的散步柴犬》再糟糕的天氣也阻止不了柴柴們</h3></div>
-					</a></li><li><a href="#"><div>
+					</a><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li><li><a href="#"><div>
 						<img src="upload/300x165.jpg" width="300" height="165"  alt="">
 						<h3>《2014臉書電影 & 音樂排行榜》電影第一名完全不意外啊</h3></div>
-					</a></li>
+					</a><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li>
 			</ul>
 		</div>
 		<!-- col-640 end -->

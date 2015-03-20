@@ -17,7 +17,8 @@
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
 <div class="page">
 <?php require_once "_php/header.php" ?>
 <div class="adbox adbox-fw hidden-md">
@@ -41,10 +42,14 @@
 							<i class="fa fa-tag"></i><ul><li><a href="#">標籤1</a></li><li><a href="#">標籤2</a></li><li><a href="#">標籤3</a></li></ul>
 						</div>
 						<div class="info">
-							<a href="#">作者1號</a>作者1號 / 2014-12-01 / <a href="#" class="ltbox-mode" data-page="popup/report.html" data-lbwid="600" data-lbhgt="360" data-clshgt="24">檢舉</a>
+							<div class="author"><a href="#">作者1號</a>作者1號 / 2014-12-01 / <a href="#" class="ltbox-mode" data-page="popup/report.html" data-lbwid="600" data-lbhgt="360" data-clshgt="24" id="reportBtn">檢舉</a></div>
 							<div class="snsbox">
-								<a href="http://line.naver.jp/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp%3A%2F%2Fline.naver.jp%2F" class="line"></a>
+								<a href="http://line.naver.jp/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp%3A%2F%2Fline.naver.jp%2F" class="line hidden-big"></a>
 								<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+							</div>
+							<div class="pull-right hidden-big">
+								<a href="#" class="btn btn-fontsize more"></a>
+								<a href="#" class="btn btn-fontsize less"></a>
 							</div>
 						</div>
 					</div>
@@ -119,9 +124,9 @@
 			</ul>
 			<h3 class="title"><i class="fa fa-smile-o"></i>立即按「讚」！文章隨時看</h3>
 			<div class="fb-like-box" data-href="https://www.facebook.com/pages/4fun-club/405053299661627" data-width="100%" data-height="450px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-			<div class="text-center hidden-big">
+			<!-- <div class="text-center hidden-big">
 				<a href="#" class="btn btn-shareIcon line"></a><a href="#" class=" btn btn-shareIcon facebook"></a>
-			</div>
+			</div> -->
 		</div>
 		<!-- col-640 end -->
 		<div class="row-col col-300 hidden-sm">

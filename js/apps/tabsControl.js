@@ -1,4 +1,5 @@
 (function() {
+  /*  更換 TAB 通用 FUNCTION */
   var changeTab;
 
   changeTab = function(btn) {

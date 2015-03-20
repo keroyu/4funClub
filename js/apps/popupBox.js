@@ -1,4 +1,6 @@
 (function() {
+  /* 彈出燈箱 （註冊、登入 等） */
+
   var addHtml, basicLightBoxStart;
 
   addHtml = '<div class="black-mode" id="black-mode"> </div> <div class="keroslightbox"> <div class="box"> <span class="close"></span> <div class="inner-box"> </div> </div> </div>';

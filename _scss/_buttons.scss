@@ -120,17 +120,44 @@
 	height: 67px;
 	margin-top: 15px;
 	border: none;
-	&.line {
-		background: url(../img/icon_line.jpg) no-repeat;
-		margin-right: 10px;
-		&:hover {
-			background-position: 0 -67px;
+	&.small {
+		width: 40px;
+		height: 40px;
+		margin-top: 5px;
+		&.line, &.facebook {
+			background-size: 40px auto;
+			&:hover { background-position: 0 -40px; }
 		}
+		&.line { margin-right: 3px; }
+		&.facebook { margin-right: 6px; }
+	}
+	&.line {
+		background: url(../img/icon_line.png) no-repeat;
+		margin-right: 10px;
+		&:hover { background-position: 0 -67px; }
 	}
 	&.facebook {
-		background: url(../img/icon_facebook.jpg) no-repeat;
-		&:hover {
-			background-position: 0 -67px;
-		}
+		background: url(../img/icon_facebook.png) no-repeat;
+		&:hover { background-position: 0 -67px; }
+	}
+}
+.btn-fblogin {
+	background: url(../img/btn_fblogin.png) no-repeat;
+	width: 66px;
+	height: 26px;
+	&:hover {
+		background-position: 0 -26px;
+	}
+}
+.btn-fontsize {
+	width: 30px;
+	height: 30px;
+	&.more {
+		background: url(../img/fontsize_more.png) no-repeat;
+		background-size: 30px 30px;
+	}
+	&.less {
+		background: url(../img/fontsize_less.png) no-repeat;
+		background-size: 30px 30px;
 	}
 }

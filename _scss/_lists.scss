@@ -1,15 +1,14 @@
 // This scss contains classes that deifine list elements' appearance
 
 .media-blocks {
-	overflow: hidden;
 	padding: 12px 10px;
 	text-align: left;
-	// border: 1px solid #808080;
 	li {
 		display: inline-block;
 		width: 50%;
 		vertical-align: text-top;
 		margin-bottom: 15px;
+		
 		a > div {
 			margin: 0 5px;
 		}
@@ -17,9 +16,15 @@
 			display: block;
 			margin: 0 auto;
 			text-align: left;
-			font-size: 16px;
-			line-height: 145%;
+			font-size: 18px;
+			line-height: 22px;
 			padding-top: 10px;
+			height: 44px;
+			overflow: hidden;
+		}
+		.fb-like.fb_iframe_widget {
+			margin-top: 5px;
+			z-Index: 10;
 		}
 		img {
 			width: 100%;
